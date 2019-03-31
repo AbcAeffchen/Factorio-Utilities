@@ -1,14 +1,11 @@
 # Factorio Utilities
 
-## Blueprints
-
-This folder contains strings of blueprint books containing some useful blueprints.
-
 ## Helpers
 
 #### getRecipesJson.py
 
 This script generates a JSON file with all the item recipes from wiki.factorio.com/Items.
+The result can be found in data/factorio-recipes.json
 
 #### getProductionChain.py
 
