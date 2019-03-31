@@ -1,0 +1,4686 @@
+{
+  "normal": {
+    "Empty_barrel": {
+      "name": "Empty barrel",
+      "basic": false,
+      "icon": "Empty_barrel.png",
+      "amount": 1.0,
+      "time": 1.0,
+      "recipe": {
+        "Steel_plate": 1.0
+      }
+    },
+    "Crude_oil_barrel": {
+      "name": "factorio-icon\" style=\"background-color:#929292;\"><img alt=\"Crude oil barrel",
+      "basic": false,
+      "icon": "Crude_oil_barrel.png",
+      "amount": 1,
+      "time": "0.2",
+      "recipe": {
+        "Empty_barrel": 1,
+        "Crude_oil": "50"
+      }
+    },
+    "Heavy_oil_barrel": {
+      "name": "factorio-icon\" style=\"background-color:#929292;\"><img alt=\"Heavy oil barrel",
+      "basic": false,
+      "icon": "Heavy_oil_barrel.png",
+      "amount": 1,
+      "time": "0.2",
+      "recipe": {
+        "Empty_barrel": 1,
+        "Heavy_oil": "50"
+      }
+    },
+    "Light_oil_barrel": {
+      "name": "factorio-icon\" style=\"background-color:#929292;\"><img alt=\"Light oil barrel",
+      "basic": false,
+      "icon": "Light_oil_barrel.png",
+      "amount": 1,
+      "time": "0.2",
+      "recipe": {
+        "Empty_barrel": 1,
+        "Light_oil": "50"
+      }
+    },
+    "Lubricant_barrel": {
+      "name": "factorio-icon\" style=\"background-color:#929292;\"><img alt=\"Lubricant barrel",
+      "basic": false,
+      "icon": "Lubricant_barrel.png",
+      "amount": 1,
+      "time": "0.2",
+      "recipe": {
+        "Empty_barrel": 1,
+        "Lubricant": "50"
+      }
+    },
+    "Petroleum_gas_barrel": {
+      "name": "factorio-icon\" style=\"background-color:#929292;\"><img alt=\"Petroleum gas barrel",
+      "basic": false,
+      "icon": "Petroleum_gas_barrel.png",
+      "amount": 1,
+      "time": "0.2",
+      "recipe": {
+        "Empty_barrel": 1,
+        "Petroleum_gas": "50"
+      }
+    },
+    "Sulfuric_acid_barrel": {
+      "name": "factorio-icon\" style=\"background-color:#929292;\"><img alt=\"Sulfuric acid barrel",
+      "basic": false,
+      "icon": "Sulfuric_acid_barrel.png",
+      "amount": 1,
+      "time": "0.2",
+      "recipe": {
+        "Empty_barrel": 1,
+        "Sulfuric_acid": "50"
+      }
+    },
+    "Water_barrel": {
+      "name": "factorio-icon\" style=\"background-color:#929292;\"><img alt=\"Water barrel",
+      "basic": false,
+      "icon": "Water_barrel.png",
+      "amount": 1,
+      "time": "0.2",
+      "recipe": {
+        "Empty_barrel": 1,
+        "Water": "50"
+      }
+    },
+    "Wooden_chest": {
+      "name": "Wooden chest",
+      "basic": false,
+      "icon": "Wooden_chest.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Wood": 2.0
+      }
+    },
+    "Iron_chest": {
+      "name": "Iron chest",
+      "basic": false,
+      "icon": "Iron_chest.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Iron_plate": 8.0
+      }
+    },
+    "Steel_chest": {
+      "name": "Steel chest",
+      "basic": false,
+      "icon": "Steel_chest.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Steel_plate": 8.0
+      }
+    },
+    "Storage_tank": {
+      "name": "Storage tank",
+      "basic": false,
+      "icon": "Storage_tank.png",
+      "amount": 1.0,
+      "time": 3.0,
+      "recipe": {
+        "Iron_plate": 20.0,
+        "Steel_plate": 5.0
+      }
+    },
+    "Transport_belt": {
+      "name": "Transport belt",
+      "basic": false,
+      "icon": "Transport_belt.png",
+      "amount": 2.0,
+      "time": 0.5,
+      "recipe": {
+        "Iron_gear_wheel": 1.0,
+        "Iron_plate": 1.0
+      }
+    },
+    "Fast_transport_belt": {
+      "name": "Fast transport belt",
+      "basic": false,
+      "icon": "Fast_transport_belt.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Iron_gear_wheel": 5.0,
+        "Transport_belt": 1.0
+      }
+    },
+    "Express_transport_belt": {
+      "name": "Express transport belt",
+      "basic": false,
+      "icon": "Express_transport_belt.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Fast_transport_belt": 1.0,
+        "Iron_gear_wheel": 10.0,
+        "Lubricant": 20.0
+      }
+    },
+    "Underground_belt": {
+      "name": "Underground belt",
+      "basic": false,
+      "icon": "Underground_belt.png",
+      "amount": 2.0,
+      "time": 1.0,
+      "recipe": {
+        "Iron_plate": 10.0,
+        "Transport_belt": 5.0
+      }
+    },
+    "Fast_underground_belt": {
+      "name": "Fast underground belt",
+      "basic": false,
+      "icon": "Fast_underground_belt.png",
+      "amount": 2.0,
+      "time": 2.0,
+      "recipe": {
+        "Iron_gear_wheel": 40.0,
+        "Underground_belt": 2.0
+      }
+    },
+    "Express_underground_belt": {
+      "name": "Express underground belt",
+      "basic": false,
+      "icon": "Express_underground_belt.png",
+      "amount": 2.0,
+      "time": 2.0,
+      "recipe": {
+        "Fast_underground_belt": 2.0,
+        "Iron_gear_wheel": 80.0,
+        "Lubricant": 40.0
+      }
+    },
+    "Splitter": {
+      "name": "Splitter",
+      "basic": false,
+      "icon": "Splitter.png",
+      "amount": 1.0,
+      "time": 1.0,
+      "recipe": {
+        "Electronic_circuit": 5.0,
+        "Iron_plate": 5.0,
+        "Transport_belt": 4.0
+      }
+    },
+    "Fast_splitter": {
+      "name": "Fast splitter",
+      "basic": false,
+      "icon": "Fast_splitter.png",
+      "amount": 1.0,
+      "time": 2.0,
+      "recipe": {
+        "Electronic_circuit": 10.0,
+        "Iron_gear_wheel": 10.0,
+        "Splitter": 1.0
+      }
+    },
+    "Express_splitter": {
+      "name": "Express splitter",
+      "basic": false,
+      "icon": "Express_splitter.png",
+      "amount": 1.0,
+      "time": 2.0,
+      "recipe": {
+        "Advanced_circuit": 10.0,
+        "Fast_splitter": 1.0,
+        "Iron_gear_wheel": 10.0,
+        "Lubricant": 80.0
+      }
+    },
+    "Burner_inserter": {
+      "name": "Burner inserter",
+      "basic": false,
+      "icon": "Burner_inserter.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Iron_gear_wheel": 1.0,
+        "Iron_plate": 1.0
+      }
+    },
+    "Inserter": {
+      "name": "Inserter",
+      "basic": false,
+      "icon": "Inserter.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Electronic_circuit": 1.0,
+        "Iron_gear_wheel": 1.0,
+        "Iron_plate": 1.0
+      }
+    },
+    "Long_handed_inserter": {
+      "name": "Long handed inserter",
+      "basic": false,
+      "icon": "Long_handed_inserter.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Inserter": 1.0,
+        "Iron_gear_wheel": 1.0,
+        "Iron_plate": 1.0
+      }
+    },
+    "Fast_inserter": {
+      "name": "Fast inserter",
+      "basic": false,
+      "icon": "Fast_inserter.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Electronic_circuit": 2.0,
+        "Inserter": 1.0,
+        "Iron_plate": 2.0
+      }
+    },
+    "Filter_inserter": {
+      "name": "Filter inserter",
+      "basic": false,
+      "icon": "Filter_inserter.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Electronic_circuit": 4.0,
+        "Fast_inserter": 1.0
+      }
+    },
+    "Stack_inserter": {
+      "name": "Stack inserter",
+      "basic": false,
+      "icon": "Stack_inserter.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Advanced_circuit": 1.0,
+        "Electronic_circuit": 15.0,
+        "Fast_inserter": 1.0,
+        "Iron_gear_wheel": 15.0
+      }
+    },
+    "Stack_filter_inserter": {
+      "name": "Stack filter inserter",
+      "basic": false,
+      "icon": "Stack_filter_inserter.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Electronic_circuit": 5.0,
+        "Stack_inserter": 1.0
+      }
+    },
+    "Small_electric_pole": {
+      "name": "Small electric pole",
+      "basic": false,
+      "icon": "Small_electric_pole.png",
+      "amount": 2.0,
+      "time": 0.5,
+      "recipe": {
+        "Copper_cable": 2.0,
+        "Wood": 1.0
+      }
+    },
+    "Medium_electric_pole": {
+      "name": "Medium electric pole",
+      "basic": false,
+      "icon": "Medium_electric_pole.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Copper_plate": 2.0,
+        "Iron_stick": 4.0,
+        "Steel_plate": 2.0
+      }
+    },
+    "Big_electric_pole": {
+      "name": "Big electric pole",
+      "basic": false,
+      "icon": "Big_electric_pole.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Copper_plate": 5.0,
+        "Iron_stick": 8.0,
+        "Steel_plate": 5.0
+      }
+    },
+    "Substation": {
+      "name": "Substation",
+      "basic": false,
+      "icon": "Substation.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Advanced_circuit": 5.0,
+        "Copper_plate": 5.0,
+        "Steel_plate": 10.0
+      }
+    },
+    "Pipe": {
+      "name": "Pipe",
+      "basic": false,
+      "icon": "Pipe.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Iron_plate": 1.0
+      }
+    },
+    "Pipe_to_ground": {
+      "name": "Pipe to ground",
+      "basic": false,
+      "icon": "Pipe_to_ground.png",
+      "amount": 2.0,
+      "time": 0.5,
+      "recipe": {
+        "Iron_plate": 5.0,
+        "Pipe": 10.0
+      }
+    },
+    "Pump": {
+      "name": "Pump",
+      "basic": false,
+      "icon": "Pump.png",
+      "amount": 1.0,
+      "time": 2.0,
+      "recipe": {
+        "Engine_unit": 1.0,
+        "Pipe": 1.0,
+        "Steel_plate": 1.0
+      }
+    },
+    "Rail": {
+      "name": "Rail",
+      "basic": false,
+      "icon": "Straight_rail.png",
+      "amount": 2.0,
+      "time": 0.5,
+      "recipe": {
+        "Iron_stick": 1.0,
+        "Steel_plate": 1.0,
+        "Stone": 1.0
+      }
+    },
+    "Train_stop": {
+      "name": "Train stop",
+      "basic": false,
+      "icon": "Train_stop.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Electronic_circuit": 5.0,
+        "Iron_plate": 6.0,
+        "Iron_stick": 6.0,
+        "Steel_plate": 3.0
+      }
+    },
+    "Rail_signal": {
+      "name": "Rail signal",
+      "basic": false,
+      "icon": "Rail_signal.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Electronic_circuit": 1.0,
+        "Iron_plate": 5.0
+      }
+    },
+    "Rail_chain_signal": {
+      "name": "Rail chain signal",
+      "basic": false,
+      "icon": "Rail_chain_signal.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Electronic_circuit": 1.0,
+        "Iron_plate": 5.0
+      }
+    },
+    "Locomotive": {
+      "name": "Locomotive",
+      "basic": false,
+      "icon": "Locomotive.png",
+      "amount": 1.0,
+      "time": 4.0,
+      "recipe": {
+        "Electronic_circuit": 10.0,
+        "Engine_unit": 20.0,
+        "Steel_plate": 30.0
+      }
+    },
+    "Cargo_wagon": {
+      "name": "Cargo wagon",
+      "basic": false,
+      "icon": "Cargo_wagon.png",
+      "amount": 1.0,
+      "time": 1.0,
+      "recipe": {
+        "Iron_gear_wheel": 10.0,
+        "Iron_plate": 20.0,
+        "Steel_plate": 20.0
+      }
+    },
+    "Fluid_wagon": {
+      "name": "Fluid wagon",
+      "basic": false,
+      "icon": "Fluid_wagon.png",
+      "amount": 1.0,
+      "time": 1.5,
+      "recipe": {
+        "Iron_gear_wheel": 10.0,
+        "Pipe": 8.0,
+        "Steel_plate": 16.0,
+        "Storage_tank": 1.0
+      }
+    },
+    "Artillery_wagon": {
+      "name": "Artillery wagon",
+      "basic": false,
+      "icon": "Artillery_wagon.png",
+      "amount": 1.0,
+      "time": 4.0,
+      "recipe": {
+        "Advanced_circuit": 20.0,
+        "Engine_unit": 64.0,
+        "Iron_gear_wheel": 10.0,
+        "Pipe": 16.0,
+        "Steel_plate": 40.0
+      }
+    },
+    "Car": {
+      "name": "Car",
+      "basic": false,
+      "icon": "Car.png",
+      "amount": 1.0,
+      "time": 2.0,
+      "recipe": {
+        "Engine_unit": 8.0,
+        "Iron_plate": 20.0,
+        "Steel_plate": 5.0
+      }
+    },
+    "Tank": {
+      "name": "Tank",
+      "basic": false,
+      "icon": "Tank.png",
+      "amount": 1.0,
+      "time": 5.0,
+      "recipe": {
+        "Advanced_circuit": 10.0,
+        "Engine_unit": 32.0,
+        "Iron_gear_wheel": 15.0,
+        "Steel_plate": 50.0
+      }
+    },
+    "Logistic_robot": {
+      "name": "Logistic robot",
+      "basic": false,
+      "icon": "Logistic_robot.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Advanced_circuit": 2.0,
+        "Flying_robot_frame": 1.0
+      }
+    },
+    "Construction_robot": {
+      "name": "Construction robot",
+      "basic": false,
+      "icon": "Construction_robot.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Electronic_circuit": 2.0,
+        "Flying_robot_frame": 1.0
+      }
+    },
+    "Active_provider_chest": {
+      "name": "Active provider chest",
+      "basic": false,
+      "icon": "Active_provider_chest.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Advanced_circuit": 1.0,
+        "Electronic_circuit": 3.0,
+        "Steel_chest": 1.0
+      }
+    },
+    "Passive_provider_chest": {
+      "name": "Passive provider chest",
+      "basic": false,
+      "icon": "Passive_provider_chest.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Advanced_circuit": 1.0,
+        "Electronic_circuit": 3.0,
+        "Steel_chest": 1.0
+      }
+    },
+    "Storage_chest": {
+      "name": "Storage chest",
+      "basic": false,
+      "icon": "Storage_chest.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Advanced_circuit": 1.0,
+        "Electronic_circuit": 3.0,
+        "Steel_chest": 1.0
+      }
+    },
+    "Buffer_chest": {
+      "name": "Buffer chest",
+      "basic": false,
+      "icon": "Buffer_chest.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Advanced_circuit": 1.0,
+        "Electronic_circuit": 3.0,
+        "Steel_chest": 1.0
+      }
+    },
+    "Requester_chest": {
+      "name": "Requester chest",
+      "basic": false,
+      "icon": "Requester_chest.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Advanced_circuit": 1.0,
+        "Electronic_circuit": 3.0,
+        "Steel_chest": 1.0
+      }
+    },
+    "Roboport": {
+      "name": "Roboport",
+      "basic": false,
+      "icon": "Roboport.png",
+      "amount": 1.0,
+      "time": 5.0,
+      "recipe": {
+        "Advanced_circuit": 45.0,
+        "Iron_gear_wheel": 45.0,
+        "Steel_plate": 45.0
+      }
+    },
+    "Lamp": {
+      "name": "Lamp",
+      "basic": false,
+      "icon": "Lamp.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Copper_cable": 3.0,
+        "Electronic_circuit": 1.0,
+        "Iron_plate": 1.0
+      }
+    },
+    "Red_wire": {
+      "name": "Red wire",
+      "basic": false,
+      "icon": "Red_wire.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Copper_cable": 1.0,
+        "Electronic_circuit": 1.0
+      }
+    },
+    "Green_wire": {
+      "name": "Green wire",
+      "basic": false,
+      "icon": "Green_wire.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Copper_cable": 1.0,
+        "Electronic_circuit": 1.0
+      }
+    },
+    "Arithmetic_combinator": {
+      "name": "Arithmetic combinator",
+      "basic": false,
+      "icon": "Arithmetic_combinator.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Copper_cable": 5.0,
+        "Electronic_circuit": 5.0
+      }
+    },
+    "Decider_combinator": {
+      "name": "Decider combinator",
+      "basic": false,
+      "icon": "Decider_combinator.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Copper_cable": 5.0,
+        "Electronic_circuit": 5.0
+      }
+    },
+    "Constant_combinator": {
+      "name": "Constant combinator",
+      "basic": false,
+      "icon": "Constant_combinator.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Copper_cable": 5.0,
+        "Electronic_circuit": 2.0
+      }
+    },
+    "Power_switch": {
+      "name": "Power switch",
+      "basic": false,
+      "icon": "Power_switch.png",
+      "amount": 1.0,
+      "time": 2.0,
+      "recipe": {
+        "Copper_cable": 5.0,
+        "Electronic_circuit": 2.0,
+        "Iron_plate": 5.0
+      }
+    },
+    "Programmable_speaker": {
+      "name": "Programmable speaker",
+      "basic": false,
+      "icon": "Programmable_speaker.png",
+      "amount": 1.0,
+      "time": 2.0,
+      "recipe": {
+        "Copper_cable": 5.0,
+        "Electronic_circuit": 4.0,
+        "Iron_plate": 3.0,
+        "Iron_stick": 4.0
+      }
+    },
+    "Stone_brick": {
+      "name": "Stone brick",
+      "basic": false,
+      "icon": "Stone_brick.png",
+      "amount": 1.0,
+      "time": 3.2,
+      "recipe": {
+        "Stone": 2.0
+      }
+    },
+    "Concrete": {
+      "name": "Concrete",
+      "basic": false,
+      "icon": "Concrete.png",
+      "amount": 10.0,
+      "time": 10.0,
+      "recipe": {
+        "Iron_ore": 1.0,
+        "Stone_brick": 5.0,
+        "Water": 100.0
+      }
+    },
+    "Hazard_concrete": {
+      "name": "Hazard concrete",
+      "basic": false,
+      "icon": "Hazard_concrete.png",
+      "amount": 10.0,
+      "time": 0.25,
+      "recipe": {
+        "Concrete": 10.0
+      }
+    },
+    "Refined_concrete": {
+      "name": "Refined concrete",
+      "basic": false,
+      "icon": "Refined_concrete.png",
+      "amount": 10.0,
+      "time": 15.0,
+      "recipe": {
+        "Concrete": 20.0,
+        "Iron_stick": 8.0,
+        "Steel_plate": 1.0,
+        "Water": 100.0
+      }
+    },
+    "Refined_hazard_concrete": {
+      "name": "Refined hazard concrete",
+      "basic": false,
+      "icon": "Refined_hazard_concrete.png",
+      "amount": 10.0,
+      "time": 0.25,
+      "recipe": {
+        "Refined_concrete": 10.0
+      }
+    },
+    "Landfill": {
+      "name": "Landfill",
+      "basic": false,
+      "icon": "Landfill.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Stone": 20.0
+      }
+    },
+    "Cliff_explosives": {
+      "name": "Cliff explosives",
+      "basic": false,
+      "icon": "Cliff_explosives.png",
+      "amount": 1.0,
+      "time": 8.0,
+      "recipe": {
+        "Empty_barrel": 1.0,
+        "Explosives": 10.0,
+        "Grenade": 1.0
+      }
+    },
+    "Repair_pack": {
+      "name": "Repair pack",
+      "basic": false,
+      "icon": "Repair_pack.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Electronic_circuit": 2.0,
+        "Iron_gear_wheel": 2.0
+      }
+    },
+    "Blueprint": {
+      "name": "Blueprint",
+      "basic": true,
+      "icon": "Blueprint.png"
+    },
+    "Deconstruction_planner": {
+      "name": "Deconstruction planner",
+      "basic": true,
+      "icon": "Deconstruction_planner.png"
+    },
+    "Upgrade_planner": {
+      "name": "Upgrade planner",
+      "basic": true,
+      "icon": "Upgrade_planner.png"
+    },
+    "Blueprint_book": {
+      "name": "Blueprint book",
+      "basic": true,
+      "icon": "Blueprint_book.png"
+    },
+    "Boiler": {
+      "name": "Boiler",
+      "basic": false,
+      "icon": "Boiler.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Pipe": 4.0,
+        "Stone_furnace": 1.0
+      }
+    },
+    "Steam_engine": {
+      "name": "Steam engine",
+      "basic": false,
+      "icon": "Steam_engine.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Iron_gear_wheel": 8.0,
+        "Iron_plate": 10.0,
+        "Pipe": 5.0
+      }
+    },
+    "Steam_turbine": {
+      "name": "Steam turbine",
+      "basic": false,
+      "icon": "Steam_turbine.png",
+      "amount": 1.0,
+      "time": 3.0,
+      "recipe": {
+        "Copper_plate": 50.0,
+        "Iron_gear_wheel": 50.0,
+        "Pipe": 20.0
+      }
+    },
+    "Solar_panel": {
+      "name": "Solar panel",
+      "basic": false,
+      "icon": "Solar_panel.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Copper_plate": 5.0,
+        "Electronic_circuit": 15.0,
+        "Steel_plate": 5.0
+      }
+    },
+    "Accumulator": {
+      "name": "Accumulator",
+      "basic": false,
+      "icon": "Accumulator.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Battery": 5.0,
+        "Iron_plate": 2.0
+      }
+    },
+    "Nuclear_reactor": {
+      "name": "Nuclear reactor",
+      "basic": false,
+      "icon": "Nuclear_reactor.png",
+      "amount": 1.0,
+      "time": 8.0,
+      "recipe": {
+        "Advanced_circuit": 500.0,
+        "Concrete": 500.0,
+        "Copper_plate": 500.0,
+        "Steel_plate": 500.0
+      }
+    },
+    "Heat_exchanger": {
+      "name": "Heat exchanger",
+      "basic": false,
+      "icon": "Heat_exchanger.png",
+      "amount": 1.0,
+      "time": 3.0,
+      "recipe": {
+        "Copper_plate": 100.0,
+        "Pipe": 10.0,
+        "Steel_plate": 10.0
+      }
+    },
+    "Heat_pipe": {
+      "name": "Heat pipe",
+      "basic": false,
+      "icon": "Heat_pipe.png",
+      "amount": 1.0,
+      "time": 1.0,
+      "recipe": {
+        "Copper_plate": 20.0,
+        "Steel_plate": 10.0
+      }
+    },
+    "Burner_mining_drill": {
+      "name": "Burner mining drill",
+      "basic": false,
+      "icon": "Burner_mining_drill.png",
+      "amount": 1.0,
+      "time": 2.0,
+      "recipe": {
+        "Iron_gear_wheel": 3.0,
+        "Iron_plate": 3.0,
+        "Stone_furnace": 1.0
+      }
+    },
+    "Electric_mining_drill": {
+      "name": "Electric mining drill",
+      "basic": false,
+      "icon": "Electric_mining_drill.png",
+      "amount": 1.0,
+      "time": 2.0,
+      "recipe": {
+        "Electronic_circuit": 3.0,
+        "Iron_gear_wheel": 5.0,
+        "Iron_plate": 10.0
+      }
+    },
+    "Offshore_pump": {
+      "name": "Offshore pump",
+      "basic": false,
+      "icon": "Offshore_pump.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Electronic_circuit": 2.0,
+        "Iron_gear_wheel": 1.0,
+        "Pipe": 1.0
+      }
+    },
+    "Pumpjack": {
+      "name": "Pumpjack",
+      "basic": false,
+      "icon": "Pumpjack.png",
+      "amount": 1.0,
+      "time": 5.0,
+      "recipe": {
+        "Electronic_circuit": 5.0,
+        "Iron_gear_wheel": 10.0,
+        "Pipe": 10.0,
+        "Steel_plate": 5.0
+      }
+    },
+    "Stone_furnace": {
+      "name": "Stone furnace",
+      "basic": false,
+      "icon": "Stone_furnace.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Stone": 5.0
+      }
+    },
+    "Steel_furnace": {
+      "name": "Steel furnace",
+      "basic": false,
+      "icon": "Steel_furnace.png",
+      "amount": 1.0,
+      "time": 3.0,
+      "recipe": {
+        "Steel_plate": 6.0,
+        "Stone_brick": 10.0
+      }
+    },
+    "Electric_furnace": {
+      "name": "Electric furnace",
+      "basic": false,
+      "icon": "Electric_furnace.png",
+      "amount": 1.0,
+      "time": 5.0,
+      "recipe": {
+        "Advanced_circuit": 5.0,
+        "Steel_plate": 10.0,
+        "Stone_brick": 10.0
+      }
+    },
+    "Assembling_machine_1": {
+      "name": "Assembling machine 1",
+      "basic": false,
+      "icon": "Assembling_machine_1.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Electronic_circuit": 3.0,
+        "Iron_gear_wheel": 5.0,
+        "Iron_plate": 9.0
+      }
+    },
+    "Assembling_machine_2": {
+      "name": "Assembling machine 2",
+      "basic": false,
+      "icon": "Assembling_machine_2.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Assembling_machine_1": 1.0,
+        "Electronic_circuit": 3.0,
+        "Iron_gear_wheel": 5.0,
+        "Steel_plate": 2.0
+      }
+    },
+    "Assembling_machine_3": {
+      "name": "Assembling machine 3",
+      "basic": false,
+      "icon": "Assembling_machine_3.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Assembling_machine_2": 2.0,
+        "Speed_module": 4.0
+      }
+    },
+    "Oil_refinery": {
+      "name": "Oil refinery",
+      "basic": false,
+      "icon": "Oil_refinery.png",
+      "amount": 1.0,
+      "time": 8.0,
+      "recipe": {
+        "Electronic_circuit": 10.0,
+        "Iron_gear_wheel": 10.0,
+        "Pipe": 10.0,
+        "Steel_plate": 15.0,
+        "Stone_brick": 10.0
+      }
+    },
+    "Chemical_plant": {
+      "name": "Chemical plant",
+      "basic": false,
+      "icon": "Chemical_plant.png",
+      "amount": 1.0,
+      "time": 5.0,
+      "recipe": {
+        "Electronic_circuit": 5.0,
+        "Iron_gear_wheel": 5.0,
+        "Pipe": 5.0,
+        "Steel_plate": 5.0
+      }
+    },
+    "Centrifuge": {
+      "name": "Centrifuge",
+      "basic": false,
+      "icon": "Centrifuge.png",
+      "amount": 1.0,
+      "time": 4.0,
+      "recipe": {
+        "Advanced_circuit": 100.0,
+        "Concrete": 100.0,
+        "Iron_gear_wheel": 100.0,
+        "Steel_plate": 50.0
+      }
+    },
+    "Lab": {
+      "name": "Lab",
+      "basic": false,
+      "icon": "Lab.png",
+      "amount": 1.0,
+      "time": 2.0,
+      "recipe": {
+        "Electronic_circuit": 10.0,
+        "Iron_gear_wheel": 10.0,
+        "Transport_belt": 4.0
+      }
+    },
+    "Beacon": {
+      "name": "Beacon",
+      "basic": false,
+      "icon": "Beacon.png",
+      "amount": 1.0,
+      "time": 15.0,
+      "recipe": {
+        "Advanced_circuit": 20.0,
+        "Copper_cable": 10.0,
+        "Electronic_circuit": 20.0,
+        "Steel_plate": 10.0
+      }
+    },
+    "Speed_module": {
+      "name": "Speed module",
+      "basic": false,
+      "icon": "Speed_module.png",
+      "amount": 1.0,
+      "time": 15.0,
+      "recipe": {
+        "Advanced_circuit": 5.0,
+        "Electronic_circuit": 5.0
+      }
+    },
+    "Speed_module_2": {
+      "name": "Speed module 2",
+      "basic": false,
+      "icon": "Speed_module_2.png",
+      "amount": 1.0,
+      "time": 30.0,
+      "recipe": {
+        "Advanced_circuit": 5.0,
+        "Processing_unit": 5.0,
+        "Speed_module": 4.0
+      }
+    },
+    "Speed_module_3": {
+      "name": "Speed module 3",
+      "basic": false,
+      "icon": "Speed_module_3.png",
+      "amount": 1.0,
+      "time": 60.0,
+      "recipe": {
+        "Advanced_circuit": 5.0,
+        "Processing_unit": 5.0,
+        "Speed_module_2": 5.0
+      }
+    },
+    "Efficiency_module": {
+      "name": "Efficiency module",
+      "basic": false,
+      "icon": "Efficiency_module.png",
+      "amount": 1.0,
+      "time": 15.0,
+      "recipe": {
+        "Advanced_circuit": 5.0,
+        "Electronic_circuit": 5.0
+      }
+    },
+    "Efficiency_module_2": {
+      "name": "Efficiency module 2",
+      "basic": false,
+      "icon": "Efficiency_module_2.png",
+      "amount": 1.0,
+      "time": 30.0,
+      "recipe": {
+        "Advanced_circuit": 5.0,
+        "Efficiency_module": 4.0,
+        "Processing_unit": 5.0
+      }
+    },
+    "Efficiency_module_3": {
+      "name": "Efficiency module 3",
+      "basic": false,
+      "icon": "Efficiency_module_3.png",
+      "amount": 1.0,
+      "time": 60.0,
+      "recipe": {
+        "Advanced_circuit": 5.0,
+        "Efficiency_module_2": 5.0,
+        "Processing_unit": 5.0
+      }
+    },
+    "Productivity_module": {
+      "name": "Productivity module",
+      "basic": false,
+      "icon": "Productivity_module.png",
+      "amount": 1.0,
+      "time": 15.0,
+      "recipe": {
+        "Advanced_circuit": 5.0,
+        "Electronic_circuit": 5.0
+      }
+    },
+    "Productivity_module_2": {
+      "name": "Productivity module 2",
+      "basic": false,
+      "icon": "Productivity_module_2.png",
+      "amount": 1.0,
+      "time": 30.0,
+      "recipe": {
+        "Advanced_circuit": 5.0,
+        "Processing_unit": 5.0,
+        "Productivity_module": 4.0
+      }
+    },
+    "Productivity_module_3": {
+      "name": "Productivity module 3",
+      "basic": false,
+      "icon": "Productivity_module_3.png",
+      "amount": 1.0,
+      "time": 60.0,
+      "recipe": {
+        "Advanced_circuit": 5.0,
+        "Processing_unit": 5.0,
+        "Productivity_module_2": 5.0
+      }
+    },
+    "Wood": {
+      "name": "Wood",
+      "basic": true,
+      "icon": "Wood.png"
+    },
+    "Coal": {
+      "name": "Coal",
+      "basic": true,
+      "icon": "Coal.png"
+    },
+    "Stone": {
+      "name": "Stone",
+      "basic": true,
+      "icon": "Stone.png"
+    },
+    "Iron_ore": {
+      "name": "Iron ore",
+      "basic": true,
+      "icon": "Iron_ore.png"
+    },
+    "Copper_ore": {
+      "name": "Copper ore",
+      "basic": true,
+      "icon": "Copper_ore.png"
+    },
+    "Uranium_ore": {
+      "name": "Uranium ore",
+      "basic": true,
+      "icon": "Uranium_ore.png"
+    },
+    "Raw_fish": {
+      "name": "Raw fish",
+      "basic": true,
+      "icon": "Raw_fish.png"
+    },
+    "Crude_oil": {
+      "name": "Crude oil",
+      "basic": true,
+      "icon": "Crude_oil.png"
+    },
+    "Heavy_oil": {
+      "name": "Heavy oil",
+      "basic": true,
+      "icon": "Heavy_oil.png"
+    },
+    "Light_oil": {
+      "name": "Light oil",
+      "basic": true,
+      "icon": "Light_oil.png"
+    },
+    "Lubricant": {
+      "name": "Lubricant",
+      "basic": false,
+      "icon": "Lubricant.png",
+      "amount": 10.0,
+      "time": 1.0,
+      "recipe": {
+        "Heavy_oil": 10.0
+      }
+    },
+    "Petroleum_gas": {
+      "name": "Petroleum gas",
+      "basic": true,
+      "icon": "Petroleum_gas.png"
+    },
+    "Sulfuric_acid": {
+      "name": "Sulfuric acid",
+      "basic": false,
+      "icon": "Sulfuric_acid.png",
+      "amount": 50.0,
+      "time": 1.0,
+      "recipe": {
+        "Iron_plate": 1.0,
+        "Sulfur": 5.0,
+        "Water": 100.0
+      }
+    },
+    "Water": {
+      "name": "Water",
+      "basic": true,
+      "icon": "Water.png"
+    },
+    "Steam": {
+      "name": "Steam",
+      "basic": true,
+      "icon": "Steam.png"
+    },
+    "Iron_plate": {
+      "name": "Iron plate",
+      "basic": false,
+      "icon": "Iron_plate.png",
+      "amount": 1.0,
+      "time": 3.2,
+      "recipe": {
+        "Iron_ore": 1.0
+      }
+    },
+    "Copper_plate": {
+      "name": "Copper plate",
+      "basic": false,
+      "icon": "Copper_plate.png",
+      "amount": 1.0,
+      "time": 3.2,
+      "recipe": {
+        "Copper_ore": 1.0
+      }
+    },
+    "Solid_fuel": {
+      "name": "Solid fuel",
+      "basic": true,
+      "icon": "Solid_fuel.png"
+    },
+    "Steel_plate": {
+      "name": "Steel plate",
+      "basic": false,
+      "icon": "Steel_plate.png",
+      "amount": 1.0,
+      "time": 16.0,
+      "recipe": {
+        "Iron_plate": 5.0
+      }
+    },
+    "Plastic_bar": {
+      "name": "Plastic bar",
+      "basic": false,
+      "icon": "Plastic_bar.png",
+      "amount": 2.0,
+      "time": 1.0,
+      "recipe": {
+        "Coal": 1.0,
+        "Petroleum_gas": 20.0
+      }
+    },
+    "Sulfur": {
+      "name": "Sulfur",
+      "basic": false,
+      "icon": "Sulfur.png",
+      "amount": 2.0,
+      "time": 1.0,
+      "recipe": {
+        "Petroleum_gas": 30.0,
+        "Water": 30.0
+      }
+    },
+    "Battery": {
+      "name": "Battery",
+      "basic": false,
+      "icon": "Battery.png",
+      "amount": 1.0,
+      "time": 4.0,
+      "recipe": {
+        "Copper_plate": 1.0,
+        "Iron_plate": 1.0,
+        "Sulfuric_acid": 20.0
+      }
+    },
+    "Explosives": {
+      "name": "Explosives",
+      "basic": false,
+      "icon": "Explosives.png",
+      "amount": 2.0,
+      "time": 4.0,
+      "recipe": {
+        "Coal": 1.0,
+        "Sulfur": 1.0,
+        "Water": 10.0
+      }
+    },
+    "Uranium_processing": {
+      "name": "Uranium-238",
+      "basic": false,
+      "icon": "Uranium-238.png",
+      "amount": 0.993,
+      "time": 12.0,
+      "recipe": {
+        "Uranium_ore": 10.0,
+        "Uranium-235": 0.007
+      }
+    },
+    "Copper_cable": {
+      "name": "Copper cable",
+      "basic": false,
+      "icon": "Copper_cable.png",
+      "amount": 2.0,
+      "time": 0.5,
+      "recipe": {
+        "Copper_plate": 1.0
+      }
+    },
+    "Iron_stick": {
+      "name": "Iron stick",
+      "basic": false,
+      "icon": "Iron_stick.png",
+      "amount": 2.0,
+      "time": 0.5,
+      "recipe": {
+        "Iron_plate": 1.0
+      }
+    },
+    "Iron_gear_wheel": {
+      "name": "Iron gear wheel",
+      "basic": false,
+      "icon": "Iron_gear_wheel.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Iron_plate": 2.0
+      }
+    },
+    "Electronic_circuit": {
+      "name": "Electronic circuit",
+      "basic": false,
+      "icon": "Electronic_circuit.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Copper_cable": 3.0,
+        "Iron_plate": 1.0
+      }
+    },
+    "Advanced_circuit": {
+      "name": "Advanced circuit",
+      "basic": false,
+      "icon": "Advanced_circuit.png",
+      "amount": 1.0,
+      "time": 6.0,
+      "recipe": {
+        "Copper_cable": 4.0,
+        "Electronic_circuit": 2.0,
+        "Plastic_bar": 2.0
+      }
+    },
+    "Processing_unit": {
+      "name": "Processing unit",
+      "basic": false,
+      "icon": "Processing_unit.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Advanced_circuit": 2.0,
+        "Electronic_circuit": 20.0,
+        "Sulfuric_acid": 5.0
+      }
+    },
+    "Engine_unit": {
+      "name": "Engine unit",
+      "basic": false,
+      "icon": "Engine_unit.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Iron_gear_wheel": 1.0,
+        "Pipe": 2.0,
+        "Steel_plate": 1.0
+      }
+    },
+    "Electric_engine_unit": {
+      "name": "Electric engine unit",
+      "basic": false,
+      "icon": "Electric_engine_unit.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Electronic_circuit": 2.0,
+        "Engine_unit": 1.0,
+        "Lubricant": 15.0
+      }
+    },
+    "Flying_robot_frame": {
+      "name": "Flying robot frame",
+      "basic": false,
+      "icon": "Flying_robot_frame.png",
+      "amount": 1.0,
+      "time": 20.0,
+      "recipe": {
+        "Battery": 2.0,
+        "Electric_engine_unit": 1.0,
+        "Electronic_circuit": 3.0,
+        "Steel_plate": 1.0
+      }
+    },
+    "Satellite": {
+      "name": "Satellite",
+      "basic": false,
+      "icon": "Satellite.png",
+      "amount": 1.0,
+      "time": 5.0,
+      "recipe": {
+        "Accumulator": 100.0,
+        "Low_density_structure": 100.0,
+        "Processing_unit": 100.0,
+        "Radar": 5.0,
+        "Rocket_fuel": 50.0,
+        "Solar_panel": 100.0
+      }
+    },
+    "Rocket_part": {
+      "name": "Rocket part",
+      "basic": false,
+      "icon": "Rocket_part.png",
+      "amount": 1.0,
+      "time": 3.0,
+      "recipe": {
+        "Low_density_structure": 10.0,
+        "Rocket_control_unit": 10.0,
+        "Rocket_fuel": 10.0
+      }
+    },
+    "Rocket_control_unit": {
+      "name": "Rocket control unit",
+      "basic": false,
+      "icon": "Rocket_control_unit.png",
+      "amount": 1.0,
+      "time": 30.0,
+      "recipe": {
+        "Processing_unit": 1.0,
+        "Speed_module": 1.0
+      }
+    },
+    "Low_density_structure": {
+      "name": "Low density structure",
+      "basic": false,
+      "icon": "Low_density_structure.png",
+      "amount": 1.0,
+      "time": 20.0,
+      "recipe": {
+        "Copper_plate": 20.0,
+        "Plastic_bar": 5.0,
+        "Steel_plate": 2.0
+      }
+    },
+    "Rocket_fuel": {
+      "name": "Rocket fuel",
+      "basic": false,
+      "icon": "Rocket_fuel.png",
+      "amount": 1.0,
+      "time": 30.0,
+      "recipe": {
+        "Solid_fuel": 10.0
+      }
+    },
+    "Nuclear_fuel": {
+      "name": "Nuclear fuel",
+      "basic": false,
+      "icon": "Nuclear_fuel.png",
+      "amount": 1.0,
+      "time": 90.0,
+      "recipe": {
+        "Rocket_fuel": 1.0,
+        "Uranium-235": 1.0
+      }
+    },
+    "Uranium-235": {
+      "name": "Uranium-238",
+      "basic": false,
+      "icon": "Uranium-238.png",
+      "amount": 0.993,
+      "time": 12.0,
+      "recipe": {
+        "Uranium_ore": 10.0,
+        "Uranium-235": 0.007
+      }
+    },
+    "Uranium-238": {
+      "name": "Uranium-238",
+      "basic": false,
+      "icon": "Uranium-238.png",
+      "amount": 0.993,
+      "time": 12.0,
+      "recipe": {
+        "Uranium_ore": 10.0,
+        "Uranium-235": 0.007
+      }
+    },
+    "Uranium_fuel_cell": {
+      "name": "Uranium fuel cell",
+      "basic": false,
+      "icon": "Uranium_fuel_cell.png",
+      "amount": 10.0,
+      "time": 10.0,
+      "recipe": {
+        "Iron_plate": 10.0,
+        "Uranium-235": 1.0,
+        "Uranium-238": 19.0
+      }
+    },
+    "Used_up_uranium_fuel_cell": {
+      "name": "Used up uranium fuel cell",
+      "basic": false,
+      "icon": "Used_up_uranium_fuel_cell.png",
+      "amount": 1.0,
+      "time": 200.0,
+      "recipe": {
+        "Uranium_fuel_cell": 1.0
+      }
+    },
+    "Nuclear_fuel_reprocessing": {
+      "name": "Uranium-238",
+      "basic": false,
+      "icon": "Uranium-238.png",
+      "amount": 3.0,
+      "time": 60.0,
+      "recipe": {
+        "Used_up_uranium_fuel_cell": 5.0
+      }
+    },
+    "Kovarex_enrichment_process": {
+      "name": "Uranium-238",
+      "basic": false,
+      "icon": "Uranium-238.png",
+      "amount": 2.0,
+      "time": 60.0,
+      "recipe": {
+        "Uranium-235": 41.0,
+        "Uranium-238": 5.0
+      }
+    },
+    "Automation_science_pack": {
+      "name": "Automation science pack",
+      "basic": false,
+      "icon": "Automation_science_pack.png",
+      "amount": 1.0,
+      "time": 5.0,
+      "recipe": {
+        "Copper_plate": 1.0,
+        "Iron_gear_wheel": 1.0
+      }
+    },
+    "Logistic_science_pack": {
+      "name": "Logistic science pack",
+      "basic": false,
+      "icon": "Logistic_science_pack.png",
+      "amount": 1.0,
+      "time": 6.0,
+      "recipe": {
+        "Inserter": 1.0,
+        "Transport_belt": 1.0
+      }
+    },
+    "Military_science_pack": {
+      "name": "Military science pack",
+      "basic": false,
+      "icon": "Military_science_pack.png",
+      "amount": 2.0,
+      "time": 10.0,
+      "recipe": {
+        "Grenade": 1.0,
+        "Piercing_rounds_magazine": 1.0,
+        "Wall": 2.0
+      }
+    },
+    "Chemical_science_pack": {
+      "name": "Chemical science pack",
+      "basic": false,
+      "icon": "Chemical_science_pack.png",
+      "amount": 2.0,
+      "time": 24.0,
+      "recipe": {
+        "Advanced_circuit": 3.0,
+        "Engine_unit": 2.0,
+        "Solid_fuel": 1.0
+      }
+    },
+    "Production_science_pack": {
+      "name": "Production science pack",
+      "basic": false,
+      "icon": "Production_science_pack.png",
+      "amount": 3.0,
+      "time": 21.0,
+      "recipe": {
+        "Electric_furnace": 1.0,
+        "Productivity_module": 1.0,
+        "Rail": 30.0
+      }
+    },
+    "Utility_science_pack": {
+      "name": "Utility science pack",
+      "basic": false,
+      "icon": "Utility_science_pack.png",
+      "amount": 3.0,
+      "time": 21.0,
+      "recipe": {
+        "Flying_robot_frame": 1.0,
+        "Low_density_structure": 3.0,
+        "Processing_unit": 2.0
+      }
+    },
+    "Space_science_pack": {
+      "name": "Space science pack",
+      "basic": true,
+      "icon": "Space_science_pack.png"
+    },
+    "Pistol": {
+      "name": "Pistol",
+      "basic": false,
+      "icon": "Pistol.png",
+      "amount": 1.0,
+      "time": 5.0,
+      "recipe": {
+        "Copper_plate": 5.0,
+        "Iron_plate": 5.0
+      }
+    },
+    "Submachine_gun": {
+      "name": "Submachine gun",
+      "basic": false,
+      "icon": "Submachine_gun.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Copper_plate": 5.0,
+        "Iron_gear_wheel": 10.0,
+        "Iron_plate": 10.0
+      }
+    },
+    "Shotgun": {
+      "name": "Shotgun",
+      "basic": false,
+      "icon": "Shotgun.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Copper_plate": 10.0,
+        "Iron_gear_wheel": 5.0,
+        "Iron_plate": 15.0,
+        "Wood": 5.0
+      }
+    },
+    "Combat_shotgun": {
+      "name": "Combat shotgun",
+      "basic": false,
+      "icon": "Combat_shotgun.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Copper_plate": 10.0,
+        "Iron_gear_wheel": 5.0,
+        "Steel_plate": 15.0,
+        "Wood": 10.0
+      }
+    },
+    "Rocket_launcher": {
+      "name": "Rocket launcher",
+      "basic": false,
+      "icon": "Rocket_launcher.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Electronic_circuit": 5.0,
+        "Iron_gear_wheel": 5.0,
+        "Iron_plate": 5.0
+      }
+    },
+    "Flamethrower": {
+      "name": "Flamethrower",
+      "basic": false,
+      "icon": "Flamethrower.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Iron_gear_wheel": 10.0,
+        "Steel_plate": 5.0
+      }
+    },
+    "Land_mine": {
+      "name": "Land mine",
+      "basic": false,
+      "icon": "Land_mine.png",
+      "amount": 4.0,
+      "time": 5.0,
+      "recipe": {
+        "Explosives": 2.0,
+        "Steel_plate": 1.0
+      }
+    },
+    "Firearm_magazine": {
+      "name": "Firearm magazine",
+      "basic": false,
+      "icon": "Firearm_magazine.png",
+      "amount": 1.0,
+      "time": 1.0,
+      "recipe": {
+        "Iron_plate": 4.0
+      }
+    },
+    "Piercing_rounds_magazine": {
+      "name": "Piercing rounds magazine",
+      "basic": false,
+      "icon": "Piercing_rounds_magazine.png",
+      "amount": 1.0,
+      "time": 3.0,
+      "recipe": {
+        "Copper_plate": 5.0,
+        "Firearm_magazine": 1.0,
+        "Steel_plate": 1.0
+      }
+    },
+    "Uranium_rounds_magazine": {
+      "name": "Uranium rounds magazine",
+      "basic": false,
+      "icon": "Uranium_rounds_magazine.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Piercing_rounds_magazine": 1.0,
+        "Uranium-238": 1.0
+      }
+    },
+    "Shotgun_shells": {
+      "name": "Shotgun shells",
+      "basic": false,
+      "icon": "Shotgun_shells.png",
+      "amount": 1.0,
+      "time": 3.0,
+      "recipe": {
+        "Copper_plate": 2.0,
+        "Iron_plate": 2.0
+      }
+    },
+    "Piercing_shotgun_shells": {
+      "name": "Piercing shotgun shells",
+      "basic": false,
+      "icon": "Piercing_shotgun_shells.png",
+      "amount": 1.0,
+      "time": 8.0,
+      "recipe": {
+        "Copper_plate": 5.0,
+        "Shotgun_shells": 2.0,
+        "Steel_plate": 2.0
+      }
+    },
+    "Cannon_shell": {
+      "name": "Cannon shell",
+      "basic": false,
+      "icon": "Cannon_shell.png",
+      "amount": 1.0,
+      "time": 8.0,
+      "recipe": {
+        "Explosives": 1.0,
+        "Plastic_bar": 2.0,
+        "Steel_plate": 2.0
+      }
+    },
+    "Explosive_cannon_shell": {
+      "name": "Explosive cannon shell",
+      "basic": false,
+      "icon": "Explosive_cannon_shell.png",
+      "amount": 1.0,
+      "time": 8.0,
+      "recipe": {
+        "Explosives": 2.0,
+        "Plastic_bar": 2.0,
+        "Steel_plate": 2.0
+      }
+    },
+    "Uranium_cannon_shell": {
+      "name": "Uranium cannon shell",
+      "basic": false,
+      "icon": "Uranium_cannon_shell.png",
+      "amount": 1.0,
+      "time": 12.0,
+      "recipe": {
+        "Cannon_shell": 1.0,
+        "Uranium-238": 1.0
+      }
+    },
+    "Explosive_uranium_cannon_shell": {
+      "name": "Explosive uranium cannon shell",
+      "basic": false,
+      "icon": "Explosive_uranium_cannon_shell.png",
+      "amount": 1.0,
+      "time": 12.0,
+      "recipe": {
+        "Explosive_cannon_shell": 1.0,
+        "Uranium-238": 1.0
+      }
+    },
+    "Artillery_shell": {
+      "name": "Artillery shell",
+      "basic": false,
+      "icon": "Artillery_shell.png",
+      "amount": 1.0,
+      "time": 15.0,
+      "recipe": {
+        "Explosive_cannon_shell": 4.0,
+        "Explosives": 8.0,
+        "Radar": 1.0
+      }
+    },
+    "Rocket": {
+      "name": "Rocket",
+      "basic": false,
+      "icon": "Rocket.png",
+      "amount": 1.0,
+      "time": 8.0,
+      "recipe": {
+        "Electronic_circuit": 1.0,
+        "Explosives": 1.0,
+        "Iron_plate": 2.0
+      }
+    },
+    "Explosive_rocket": {
+      "name": "Explosive rocket",
+      "basic": false,
+      "icon": "Explosive_rocket.png",
+      "amount": 1.0,
+      "time": 8.0,
+      "recipe": {
+        "Explosives": 2.0,
+        "Rocket": 1.0
+      }
+    },
+    "Atomic_bomb": {
+      "name": "Atomic bomb",
+      "basic": false,
+      "icon": "Atomic_bomb.png",
+      "amount": 1.0,
+      "time": 50.0,
+      "recipe": {
+        "Explosives": 10.0,
+        "Rocket_control_unit": 10.0,
+        "Uranium-235": 30.0
+      }
+    },
+    "Flamethrower_ammo": {
+      "name": "Flamethrower ammo",
+      "basic": false,
+      "icon": "Flamethrower_ammo.png",
+      "amount": 1.0,
+      "time": 6.0,
+      "recipe": {
+        "Heavy_oil": 50.0,
+        "Light_oil": 50.0,
+        "Steel_plate": 5.0
+      }
+    },
+    "Grenade": {
+      "name": "Grenade",
+      "basic": false,
+      "icon": "Grenade.png",
+      "amount": 1.0,
+      "time": 8.0,
+      "recipe": {
+        "Coal": 10.0,
+        "Iron_plate": 5.0
+      }
+    },
+    "Cluster_grenade": {
+      "name": "Cluster grenade",
+      "basic": false,
+      "icon": "Cluster_grenade.png",
+      "amount": 1.0,
+      "time": 8.0,
+      "recipe": {
+        "Explosives": 5.0,
+        "Grenade": 7.0,
+        "Steel_plate": 5.0
+      }
+    },
+    "Poison_capsule": {
+      "name": "Poison capsule",
+      "basic": false,
+      "icon": "Poison_capsule.png",
+      "amount": 1.0,
+      "time": 8.0,
+      "recipe": {
+        "Coal": 10.0,
+        "Electronic_circuit": 3.0,
+        "Steel_plate": 3.0
+      }
+    },
+    "Slowdown_capsule": {
+      "name": "Slowdown capsule",
+      "basic": false,
+      "icon": "Slowdown_capsule.png",
+      "amount": 1.0,
+      "time": 8.0,
+      "recipe": {
+        "Coal": 5.0,
+        "Electronic_circuit": 2.0,
+        "Steel_plate": 2.0
+      }
+    },
+    "Defender_capsule": {
+      "name": "Defender capsule",
+      "basic": false,
+      "icon": "Defender_capsule.png",
+      "amount": 1.0,
+      "time": 8.0,
+      "recipe": {
+        "Flying_robot_frame": 1.0,
+        "Iron_gear_wheel": 3.0,
+        "Piercing_rounds_magazine": 1.0
+      }
+    },
+    "Distractor_capsule": {
+      "name": "Distractor capsule",
+      "basic": false,
+      "icon": "Distractor_capsule.png",
+      "amount": 1.0,
+      "time": 15.0,
+      "recipe": {
+        "Advanced_circuit": 3.0,
+        "Defender_capsule": 4.0
+      }
+    },
+    "Destroyer_capsule": {
+      "name": "Destroyer capsule",
+      "basic": false,
+      "icon": "Destroyer_capsule.png",
+      "amount": 1.0,
+      "time": 15.0,
+      "recipe": {
+        "Distractor_capsule": 4.0,
+        "Speed_module": 1.0
+      }
+    },
+    "Discharge_defense_remote": {
+      "name": "Discharge defense remote",
+      "basic": false,
+      "icon": "Discharge_defense_remote.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Electronic_circuit": 1.0
+      }
+    },
+    "Artillery_targeting_remote": {
+      "name": "Artillery targeting remote",
+      "basic": false,
+      "icon": "Artillery_targeting_remote.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Processing_unit": 1.0,
+        "Radar": 1.0
+      }
+    },
+    "Light_armor": {
+      "name": "Light armor",
+      "basic": false,
+      "icon": "Light_armor.png",
+      "amount": 1.0,
+      "time": 3.0,
+      "recipe": {
+        "Iron_plate": 40.0
+      }
+    },
+    "Heavy_armor": {
+      "name": "Heavy armor",
+      "basic": false,
+      "icon": "Heavy_armor.png",
+      "amount": 1.0,
+      "time": 8.0,
+      "recipe": {
+        "Copper_plate": 100.0,
+        "Steel_plate": 50.0
+      }
+    },
+    "Modular_armor": {
+      "name": "Modular armor",
+      "basic": false,
+      "icon": "Modular_armor.png",
+      "amount": 1.0,
+      "time": 15.0,
+      "recipe": {
+        "Advanced_circuit": 30.0,
+        "Steel_plate": 50.0
+      }
+    },
+    "Power_armor": {
+      "name": "Power armor",
+      "basic": false,
+      "icon": "Power_armor.png",
+      "amount": 1.0,
+      "time": 20.0,
+      "recipe": {
+        "Electric_engine_unit": 20.0,
+        "Processing_unit": 40.0,
+        "Steel_plate": 40.0
+      }
+    },
+    "Power_armor_MK2": {
+      "name": "Power armor MK2",
+      "basic": false,
+      "icon": "Power_armor_MK2.png",
+      "amount": 1.0,
+      "time": 25.0,
+      "recipe": {
+        "Efficiency_module_2": 25.0,
+        "Electric_engine_unit": 40.0,
+        "Low_density_structure": 30.0,
+        "Processing_unit": 60.0,
+        "Speed_module_2": 25.0
+      }
+    },
+    "Portable_solar_panel": {
+      "name": "Portable solar panel",
+      "basic": false,
+      "icon": "Portable_solar_panel.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Advanced_circuit": 2.0,
+        "Solar_panel": 1.0,
+        "Steel_plate": 5.0
+      }
+    },
+    "Portable_fusion_reactor": {
+      "name": "Portable fusion reactor",
+      "basic": false,
+      "icon": "Portable_fusion_reactor.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Low_density_structure": 50.0,
+        "Processing_unit": 200.0
+      }
+    },
+    "Energy_shield": {
+      "name": "Energy shield",
+      "basic": false,
+      "icon": "Energy_shield.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Advanced_circuit": 5.0,
+        "Steel_plate": 10.0
+      }
+    },
+    "Energy_shield_MK2": {
+      "name": "Energy shield MK2",
+      "basic": false,
+      "icon": "Energy_shield_MK2.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Energy_shield": 10.0,
+        "Low_density_structure": 5.0,
+        "Processing_unit": 5.0
+      }
+    },
+    "Personal_battery": {
+      "name": "Personal battery",
+      "basic": false,
+      "icon": "Personal_battery.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Battery": 5.0,
+        "Steel_plate": 10.0
+      }
+    },
+    "Personal_battery_MK2": {
+      "name": "Personal battery MK2",
+      "basic": false,
+      "icon": "Personal_battery_MK2.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Personal_battery": 10.0,
+        "Low_density_structure": 5.0,
+        "Processing_unit": 15.0
+      }
+    },
+    "Personal_laser_defense": {
+      "name": "Personal laser defense",
+      "basic": false,
+      "icon": "Personal_laser_defense.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Laser_turret": 5.0,
+        "Low_density_structure": 5.0,
+        "Processing_unit": 20.0
+      }
+    },
+    "Discharge_defense": {
+      "name": "Discharge defense",
+      "basic": false,
+      "icon": "Discharge_defense.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Laser_turret": 10.0,
+        "Processing_unit": 5.0,
+        "Steel_plate": 20.0
+      }
+    },
+    "Belt_immunity_equipment": {
+      "name": "Belt immunity equipment",
+      "basic": false,
+      "icon": "Belt_immunity_equipment.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Advanced_circuit": 5.0,
+        "Steel_plate": 10.0
+      }
+    },
+    "Exoskeleton": {
+      "name": "Exoskeleton",
+      "basic": false,
+      "icon": "Exoskeleton.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Electric_engine_unit": 30.0,
+        "Processing_unit": 10.0,
+        "Steel_plate": 20.0
+      }
+    },
+    "Personal_roboport": {
+      "name": "Personal roboport",
+      "basic": false,
+      "icon": "Personal_roboport.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Advanced_circuit": 10.0,
+        "Battery": 45.0,
+        "Iron_gear_wheel": 40.0,
+        "Steel_plate": 20.0
+      }
+    },
+    "Personal_roboport_MK2": {
+      "name": "Personal roboport MK2",
+      "basic": false,
+      "icon": "Personal_roboport_MK2.png",
+      "amount": 1.0,
+      "time": 20.0,
+      "recipe": {
+        "Low_density_structure": 20.0,
+        "Personal_roboport": 5.0,
+        "Processing_unit": 100.0
+      }
+    },
+    "Nightvision": {
+      "name": "Nightvision",
+      "basic": false,
+      "icon": "Nightvision.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Advanced_circuit": 5.0,
+        "Steel_plate": 10.0
+      }
+    },
+    "Wall": {
+      "name": "Wall",
+      "basic": false,
+      "icon": "Wall.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Stone_brick": 5.0
+      }
+    },
+    "Gate": {
+      "name": "Gate",
+      "basic": false,
+      "icon": "Gate.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Electronic_circuit": 2.0,
+        "Steel_plate": 2.0,
+        "Wall": 1.0
+      }
+    },
+    "Gun_turret": {
+      "name": "Gun turret",
+      "basic": false,
+      "icon": "Gun_turret.png",
+      "amount": 1.0,
+      "time": 8.0,
+      "recipe": {
+        "Copper_plate": 10.0,
+        "Iron_gear_wheel": 10.0,
+        "Iron_plate": 20.0
+      }
+    },
+    "Laser_turret": {
+      "name": "Laser turret",
+      "basic": false,
+      "icon": "Laser_turret.png",
+      "amount": 1.0,
+      "time": 20.0,
+      "recipe": {
+        "Battery": 12.0,
+        "Electronic_circuit": 20.0,
+        "Steel_plate": 20.0
+      }
+    },
+    "Flamethrower_turret": {
+      "name": "Flamethrower turret",
+      "basic": false,
+      "icon": "Flamethrower_turret.png",
+      "amount": 1.0,
+      "time": 20.0,
+      "recipe": {
+        "Engine_unit": 5.0,
+        "Iron_gear_wheel": 15.0,
+        "Pipe": 10.0,
+        "Steel_plate": 30.0
+      }
+    },
+    "Artillery_turret": {
+      "name": "Artillery turret",
+      "basic": false,
+      "icon": "Artillery_turret.png",
+      "amount": 1.0,
+      "time": 40.0,
+      "recipe": {
+        "Advanced_circuit": 20.0,
+        "Concrete": 60.0,
+        "Iron_gear_wheel": 40.0,
+        "Steel_plate": 60.0
+      }
+    },
+    "Radar": {
+      "name": "Radar",
+      "basic": false,
+      "icon": "Radar.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Electronic_circuit": 5.0,
+        "Iron_gear_wheel": 5.0,
+        "Iron_plate": 10.0
+      }
+    },
+    "Rocket_silo": {
+      "name": "Rocket silo",
+      "basic": false,
+      "icon": "Rocket_silo.png",
+      "amount": 1.0,
+      "time": 30.0,
+      "recipe": {
+        "Concrete": 1.0,
+        "Electric_engine_unit": 200.0,
+        "Pipe": 100.0,
+        "Processing_unit": 200.0,
+        "Steel_plate": 1.0
+      }
+    }
+  },
+  "expensive": {
+    "Empty_barrel": {
+      "name": "Empty barrel",
+      "basic": false,
+      "icon": "Empty_barrel.png",
+      "amount": 1.0,
+      "time": 1.0,
+      "recipe": {
+        "Steel_plate": 1.0
+      }
+    },
+    "Crude_oil_barrel": {
+      "name": "factorio-icon\" style=\"background-color:#929292;\"><img alt=\"Crude oil barrel",
+      "basic": false,
+      "icon": "Crude_oil_barrel.png",
+      "amount": 1,
+      "time": "0.2",
+      "recipe": {
+        "Empty_barrel": 1,
+        "Crude_oil": "50"
+      }
+    },
+    "Heavy_oil_barrel": {
+      "name": "factorio-icon\" style=\"background-color:#929292;\"><img alt=\"Heavy oil barrel",
+      "basic": false,
+      "icon": "Heavy_oil_barrel.png",
+      "amount": 1,
+      "time": "0.2",
+      "recipe": {
+        "Empty_barrel": 1,
+        "Heavy_oil": "50"
+      }
+    },
+    "Light_oil_barrel": {
+      "name": "factorio-icon\" style=\"background-color:#929292;\"><img alt=\"Light oil barrel",
+      "basic": false,
+      "icon": "Light_oil_barrel.png",
+      "amount": 1,
+      "time": "0.2",
+      "recipe": {
+        "Empty_barrel": 1,
+        "Light_oil": "50"
+      }
+    },
+    "Lubricant_barrel": {
+      "name": "factorio-icon\" style=\"background-color:#929292;\"><img alt=\"Lubricant barrel",
+      "basic": false,
+      "icon": "Lubricant_barrel.png",
+      "amount": 1,
+      "time": "0.2",
+      "recipe": {
+        "Empty_barrel": 1,
+        "Lubricant": "50"
+      }
+    },
+    "Petroleum_gas_barrel": {
+      "name": "factorio-icon\" style=\"background-color:#929292;\"><img alt=\"Petroleum gas barrel",
+      "basic": false,
+      "icon": "Petroleum_gas_barrel.png",
+      "amount": 1,
+      "time": "0.2",
+      "recipe": {
+        "Empty_barrel": 1,
+        "Petroleum_gas": "50"
+      }
+    },
+    "Sulfuric_acid_barrel": {
+      "name": "factorio-icon\" style=\"background-color:#929292;\"><img alt=\"Sulfuric acid barrel",
+      "basic": false,
+      "icon": "Sulfuric_acid_barrel.png",
+      "amount": 1,
+      "time": "0.2",
+      "recipe": {
+        "Empty_barrel": 1,
+        "Sulfuric_acid": "50"
+      }
+    },
+    "Water_barrel": {
+      "name": "factorio-icon\" style=\"background-color:#929292;\"><img alt=\"Water barrel",
+      "basic": false,
+      "icon": "Water_barrel.png",
+      "amount": 1,
+      "time": "0.2",
+      "recipe": {
+        "Empty_barrel": 1,
+        "Water": "50"
+      }
+    },
+    "Wooden_chest": {
+      "name": "Wooden chest",
+      "basic": false,
+      "icon": "Wooden_chest.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Wood": 2.0
+      }
+    },
+    "Iron_chest": {
+      "name": "Iron chest",
+      "basic": false,
+      "icon": "Iron_chest.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Iron_plate": 8.0
+      }
+    },
+    "Steel_chest": {
+      "name": "Steel chest",
+      "basic": false,
+      "icon": "Steel_chest.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Steel_plate": 8.0
+      }
+    },
+    "Storage_tank": {
+      "name": "Storage tank",
+      "basic": false,
+      "icon": "Storage_tank.png",
+      "amount": 1.0,
+      "time": 3.0,
+      "recipe": {
+        "Iron_plate": 20.0,
+        "Steel_plate": 5.0
+      }
+    },
+    "Transport_belt": {
+      "name": "Transport belt",
+      "basic": false,
+      "icon": "Transport_belt.png",
+      "amount": 2.0,
+      "time": 0.5,
+      "recipe": {
+        "Iron_gear_wheel": 1.0,
+        "Iron_plate": 1.0
+      }
+    },
+    "Fast_transport_belt": {
+      "name": "Fast transport belt",
+      "basic": false,
+      "icon": "Fast_transport_belt.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Iron_gear_wheel": 5.0,
+        "Transport_belt": 1.0
+      }
+    },
+    "Express_transport_belt": {
+      "name": "Express transport belt",
+      "basic": false,
+      "icon": "Express_transport_belt.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Fast_transport_belt": 1.0,
+        "Iron_gear_wheel": 20.0,
+        "Lubricant": 20.0
+      }
+    },
+    "Underground_belt": {
+      "name": "Underground belt",
+      "basic": false,
+      "icon": "Underground_belt.png",
+      "amount": 2.0,
+      "time": 1.0,
+      "recipe": {
+        "Iron_plate": 10.0,
+        "Transport_belt": 5.0
+      }
+    },
+    "Fast_underground_belt": {
+      "name": "Fast underground belt",
+      "basic": false,
+      "icon": "Fast_underground_belt.png",
+      "amount": 2.0,
+      "time": 2.0,
+      "recipe": {
+        "Iron_gear_wheel": 40.0,
+        "Underground_belt": 2.0
+      }
+    },
+    "Express_underground_belt": {
+      "name": "Express underground belt",
+      "basic": false,
+      "icon": "Express_underground_belt.png",
+      "amount": 2.0,
+      "time": 2.0,
+      "recipe": {
+        "Fast_underground_belt": 2.0,
+        "Iron_gear_wheel": 80.0,
+        "Lubricant": 40.0
+      }
+    },
+    "Splitter": {
+      "name": "Splitter",
+      "basic": false,
+      "icon": "Splitter.png",
+      "amount": 1.0,
+      "time": 1.0,
+      "recipe": {
+        "Electronic_circuit": 5.0,
+        "Iron_plate": 5.0,
+        "Transport_belt": 4.0
+      }
+    },
+    "Fast_splitter": {
+      "name": "Fast splitter",
+      "basic": false,
+      "icon": "Fast_splitter.png",
+      "amount": 1.0,
+      "time": 2.0,
+      "recipe": {
+        "Electronic_circuit": 10.0,
+        "Iron_gear_wheel": 10.0,
+        "Splitter": 1.0
+      }
+    },
+    "Express_splitter": {
+      "name": "Express splitter",
+      "basic": false,
+      "icon": "Express_splitter.png",
+      "amount": 1.0,
+      "time": 2.0,
+      "recipe": {
+        "Advanced_circuit": 10.0,
+        "Fast_splitter": 1.0,
+        "Iron_gear_wheel": 10.0,
+        "Lubricant": 80.0
+      }
+    },
+    "Burner_inserter": {
+      "name": "Burner inserter",
+      "basic": false,
+      "icon": "Burner_inserter.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Iron_gear_wheel": 1.0,
+        "Iron_plate": 1.0
+      }
+    },
+    "Inserter": {
+      "name": "Inserter",
+      "basic": false,
+      "icon": "Inserter.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Electronic_circuit": 1.0,
+        "Iron_gear_wheel": 1.0,
+        "Iron_plate": 1.0
+      }
+    },
+    "Long_handed_inserter": {
+      "name": "Long handed inserter",
+      "basic": false,
+      "icon": "Long_handed_inserter.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Inserter": 1.0,
+        "Iron_gear_wheel": 1.0,
+        "Iron_plate": 1.0
+      }
+    },
+    "Fast_inserter": {
+      "name": "Fast inserter",
+      "basic": false,
+      "icon": "Fast_inserter.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Electronic_circuit": 2.0,
+        "Inserter": 1.0,
+        "Iron_plate": 2.0
+      }
+    },
+    "Filter_inserter": {
+      "name": "Filter inserter",
+      "basic": false,
+      "icon": "Filter_inserter.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Electronic_circuit": 4.0,
+        "Fast_inserter": 1.0
+      }
+    },
+    "Stack_inserter": {
+      "name": "Stack inserter",
+      "basic": false,
+      "icon": "Stack_inserter.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Advanced_circuit": 1.0,
+        "Electronic_circuit": 15.0,
+        "Fast_inserter": 1.0,
+        "Iron_gear_wheel": 15.0
+      }
+    },
+    "Stack_filter_inserter": {
+      "name": "Stack filter inserter",
+      "basic": false,
+      "icon": "Stack_filter_inserter.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Electronic_circuit": 5.0,
+        "Stack_inserter": 1.0
+      }
+    },
+    "Small_electric_pole": {
+      "name": "Small electric pole",
+      "basic": false,
+      "icon": "Small_electric_pole.png",
+      "amount": 2.0,
+      "time": 0.5,
+      "recipe": {
+        "Copper_cable": 2.0,
+        "Wood": 1.0
+      }
+    },
+    "Medium_electric_pole": {
+      "name": "Medium electric pole",
+      "basic": false,
+      "icon": "Medium_electric_pole.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Copper_plate": 2.0,
+        "Iron_stick": 4.0,
+        "Steel_plate": 2.0
+      }
+    },
+    "Big_electric_pole": {
+      "name": "Big electric pole",
+      "basic": false,
+      "icon": "Big_electric_pole.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Copper_plate": 5.0,
+        "Iron_stick": 8.0,
+        "Steel_plate": 5.0
+      }
+    },
+    "Substation": {
+      "name": "Substation",
+      "basic": false,
+      "icon": "Substation.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Advanced_circuit": 5.0,
+        "Copper_plate": 5.0,
+        "Steel_plate": 10.0
+      }
+    },
+    "Pipe": {
+      "name": "Pipe",
+      "basic": false,
+      "icon": "Pipe.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Iron_plate": 2.0
+      }
+    },
+    "Pipe_to_ground": {
+      "name": "Pipe to ground",
+      "basic": false,
+      "icon": "Pipe_to_ground.png",
+      "amount": 2.0,
+      "time": 0.5,
+      "recipe": {
+        "Iron_plate": 5.0,
+        "Pipe": 10.0
+      }
+    },
+    "Pump": {
+      "name": "Pump",
+      "basic": false,
+      "icon": "Pump.png",
+      "amount": 1.0,
+      "time": 2.0,
+      "recipe": {
+        "Engine_unit": 1.0,
+        "Pipe": 1.0,
+        "Steel_plate": 1.0
+      }
+    },
+    "Rail": {
+      "name": "Rail",
+      "basic": false,
+      "icon": "Straight_rail.png",
+      "amount": 2.0,
+      "time": 0.5,
+      "recipe": {
+        "Iron_stick": 1.0,
+        "Steel_plate": 1.0,
+        "Stone": 1.0
+      }
+    },
+    "Train_stop": {
+      "name": "Train stop",
+      "basic": false,
+      "icon": "Train_stop.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Electronic_circuit": 5.0,
+        "Iron_plate": 6.0,
+        "Iron_stick": 6.0,
+        "Steel_plate": 3.0
+      }
+    },
+    "Rail_signal": {
+      "name": "Rail signal",
+      "basic": false,
+      "icon": "Rail_signal.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Electronic_circuit": 1.0,
+        "Iron_plate": 5.0
+      }
+    },
+    "Rail_chain_signal": {
+      "name": "Rail chain signal",
+      "basic": false,
+      "icon": "Rail_chain_signal.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Electronic_circuit": 1.0,
+        "Iron_plate": 5.0
+      }
+    },
+    "Locomotive": {
+      "name": "Locomotive",
+      "basic": false,
+      "icon": "Locomotive.png",
+      "amount": 1.0,
+      "time": 4.0,
+      "recipe": {
+        "Electronic_circuit": 10.0,
+        "Engine_unit": 20.0,
+        "Steel_plate": 30.0
+      }
+    },
+    "Cargo_wagon": {
+      "name": "Cargo wagon",
+      "basic": false,
+      "icon": "Cargo_wagon.png",
+      "amount": 1.0,
+      "time": 1.0,
+      "recipe": {
+        "Iron_gear_wheel": 10.0,
+        "Iron_plate": 20.0,
+        "Steel_plate": 20.0
+      }
+    },
+    "Fluid_wagon": {
+      "name": "Fluid wagon",
+      "basic": false,
+      "icon": "Fluid_wagon.png",
+      "amount": 1.0,
+      "time": 1.5,
+      "recipe": {
+        "Iron_gear_wheel": 10.0,
+        "Pipe": 8.0,
+        "Steel_plate": 16.0,
+        "Storage_tank": 1.0
+      }
+    },
+    "Artillery_wagon": {
+      "name": "Artillery wagon",
+      "basic": false,
+      "icon": "Artillery_wagon.png",
+      "amount": 1.0,
+      "time": 4.0,
+      "recipe": {
+        "Advanced_circuit": 20.0,
+        "Engine_unit": 64.0,
+        "Iron_gear_wheel": 10.0,
+        "Pipe": 16.0,
+        "Steel_plate": 40.0
+      }
+    },
+    "Car": {
+      "name": "Car",
+      "basic": false,
+      "icon": "Car.png",
+      "amount": 1.0,
+      "time": 2.0,
+      "recipe": {
+        "Engine_unit": 8.0,
+        "Iron_plate": 20.0,
+        "Steel_plate": 5.0
+      }
+    },
+    "Tank": {
+      "name": "Tank",
+      "basic": false,
+      "icon": "Tank.png",
+      "amount": 1.0,
+      "time": 8.0,
+      "recipe": {
+        "Advanced_circuit": 20.0,
+        "Engine_unit": 64.0,
+        "Iron_gear_wheel": 30.0,
+        "Steel_plate": 100.0
+      }
+    },
+    "Logistic_robot": {
+      "name": "Logistic robot",
+      "basic": false,
+      "icon": "Logistic_robot.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Advanced_circuit": 2.0,
+        "Flying_robot_frame": 1.0
+      }
+    },
+    "Construction_robot": {
+      "name": "Construction robot",
+      "basic": false,
+      "icon": "Construction_robot.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Electronic_circuit": 2.0,
+        "Flying_robot_frame": 1.0
+      }
+    },
+    "Active_provider_chest": {
+      "name": "Active provider chest",
+      "basic": false,
+      "icon": "Active_provider_chest.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Advanced_circuit": 1.0,
+        "Electronic_circuit": 3.0,
+        "Steel_chest": 1.0
+      }
+    },
+    "Passive_provider_chest": {
+      "name": "Passive provider chest",
+      "basic": false,
+      "icon": "Passive_provider_chest.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Advanced_circuit": 1.0,
+        "Electronic_circuit": 3.0,
+        "Steel_chest": 1.0
+      }
+    },
+    "Storage_chest": {
+      "name": "Storage chest",
+      "basic": false,
+      "icon": "Storage_chest.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Advanced_circuit": 1.0,
+        "Electronic_circuit": 3.0,
+        "Steel_chest": 1.0
+      }
+    },
+    "Buffer_chest": {
+      "name": "Buffer chest",
+      "basic": false,
+      "icon": "Buffer_chest.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Advanced_circuit": 1.0,
+        "Electronic_circuit": 3.0,
+        "Steel_chest": 1.0
+      }
+    },
+    "Requester_chest": {
+      "name": "Requester chest",
+      "basic": false,
+      "icon": "Requester_chest.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Advanced_circuit": 1.0,
+        "Electronic_circuit": 3.0,
+        "Steel_chest": 1.0
+      }
+    },
+    "Roboport": {
+      "name": "Roboport",
+      "basic": false,
+      "icon": "Roboport.png",
+      "amount": 1.0,
+      "time": 5.0,
+      "recipe": {
+        "Advanced_circuit": 45.0,
+        "Iron_gear_wheel": 45.0,
+        "Steel_plate": 45.0
+      }
+    },
+    "Lamp": {
+      "name": "Lamp",
+      "basic": false,
+      "icon": "Lamp.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Copper_cable": 3.0,
+        "Electronic_circuit": 1.0,
+        "Iron_plate": 1.0
+      }
+    },
+    "Red_wire": {
+      "name": "Red wire",
+      "basic": false,
+      "icon": "Red_wire.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Copper_cable": 1.0,
+        "Electronic_circuit": 1.0
+      }
+    },
+    "Green_wire": {
+      "name": "Green wire",
+      "basic": false,
+      "icon": "Green_wire.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Copper_cable": 1.0,
+        "Electronic_circuit": 1.0
+      }
+    },
+    "Arithmetic_combinator": {
+      "name": "Arithmetic combinator",
+      "basic": false,
+      "icon": "Arithmetic_combinator.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Copper_cable": 5.0,
+        "Electronic_circuit": 5.0
+      }
+    },
+    "Decider_combinator": {
+      "name": "Decider combinator",
+      "basic": false,
+      "icon": "Decider_combinator.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Copper_cable": 5.0,
+        "Electronic_circuit": 5.0
+      }
+    },
+    "Constant_combinator": {
+      "name": "Constant combinator",
+      "basic": false,
+      "icon": "Constant_combinator.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Copper_cable": 5.0,
+        "Electronic_circuit": 2.0
+      }
+    },
+    "Power_switch": {
+      "name": "Power switch",
+      "basic": false,
+      "icon": "Power_switch.png",
+      "amount": 1.0,
+      "time": 2.0,
+      "recipe": {
+        "Copper_cable": 5.0,
+        "Electronic_circuit": 2.0,
+        "Iron_plate": 5.0
+      }
+    },
+    "Programmable_speaker": {
+      "name": "Programmable speaker",
+      "basic": false,
+      "icon": "Programmable_speaker.png",
+      "amount": 1.0,
+      "time": 2.0,
+      "recipe": {
+        "Copper_cable": 5.0,
+        "Electronic_circuit": 4.0,
+        "Iron_plate": 3.0,
+        "Iron_stick": 4.0
+      }
+    },
+    "Stone_brick": {
+      "name": "Stone brick",
+      "basic": false,
+      "icon": "Stone_brick.png",
+      "amount": 1.0,
+      "time": 3.2,
+      "recipe": {
+        "Stone": 2.0
+      }
+    },
+    "Concrete": {
+      "name": "Concrete",
+      "basic": false,
+      "icon": "Concrete.png",
+      "amount": 10.0,
+      "time": 10.0,
+      "recipe": {
+        "Iron_ore": 1.0,
+        "Stone_brick": 5.0,
+        "Water": 100.0
+      }
+    },
+    "Hazard_concrete": {
+      "name": "Hazard concrete",
+      "basic": false,
+      "icon": "Hazard_concrete.png",
+      "amount": 10.0,
+      "time": 0.25,
+      "recipe": {
+        "Concrete": 10.0
+      }
+    },
+    "Refined_concrete": {
+      "name": "Refined concrete",
+      "basic": false,
+      "icon": "Refined_concrete.png",
+      "amount": 10.0,
+      "time": 15.0,
+      "recipe": {
+        "Concrete": 20.0,
+        "Iron_stick": 8.0,
+        "Steel_plate": 1.0,
+        "Water": 100.0
+      }
+    },
+    "Refined_hazard_concrete": {
+      "name": "Refined hazard concrete",
+      "basic": false,
+      "icon": "Refined_hazard_concrete.png",
+      "amount": 10.0,
+      "time": 0.25,
+      "recipe": {
+        "Refined_concrete": 10.0
+      }
+    },
+    "Landfill": {
+      "name": "Landfill",
+      "basic": false,
+      "icon": "Landfill.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Stone": 20.0
+      }
+    },
+    "Cliff_explosives": {
+      "name": "Cliff explosives",
+      "basic": false,
+      "icon": "Cliff_explosives.png",
+      "amount": 1.0,
+      "time": 8.0,
+      "recipe": {
+        "Empty_barrel": 1.0,
+        "Explosives": 10.0,
+        "Grenade": 1.0
+      }
+    },
+    "Repair_pack": {
+      "name": "Repair pack",
+      "basic": false,
+      "icon": "Repair_pack.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Electronic_circuit": 2.0,
+        "Iron_gear_wheel": 2.0
+      }
+    },
+    "Blueprint": {
+      "name": "Blueprint",
+      "basic": true,
+      "icon": "Blueprint.png"
+    },
+    "Deconstruction_planner": {
+      "name": "Deconstruction planner",
+      "basic": true,
+      "icon": "Deconstruction_planner.png"
+    },
+    "Upgrade_planner": {
+      "name": "Upgrade planner",
+      "basic": true,
+      "icon": "Upgrade_planner.png"
+    },
+    "Blueprint_book": {
+      "name": "Blueprint book",
+      "basic": true,
+      "icon": "Blueprint_book.png"
+    },
+    "Boiler": {
+      "name": "Boiler",
+      "basic": false,
+      "icon": "Boiler.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Pipe": 4.0,
+        "Stone_furnace": 1.0
+      }
+    },
+    "Steam_engine": {
+      "name": "Steam engine",
+      "basic": false,
+      "icon": "Steam_engine.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Iron_gear_wheel": 10.0,
+        "Iron_plate": 50.0,
+        "Pipe": 5.0
+      }
+    },
+    "Steam_turbine": {
+      "name": "Steam turbine",
+      "basic": false,
+      "icon": "Steam_turbine.png",
+      "amount": 1.0,
+      "time": 3.0,
+      "recipe": {
+        "Copper_plate": 50.0,
+        "Iron_gear_wheel": 50.0,
+        "Pipe": 20.0
+      }
+    },
+    "Solar_panel": {
+      "name": "Solar panel",
+      "basic": false,
+      "icon": "Solar_panel.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Copper_plate": 5.0,
+        "Electronic_circuit": 15.0,
+        "Steel_plate": 5.0
+      }
+    },
+    "Accumulator": {
+      "name": "Accumulator",
+      "basic": false,
+      "icon": "Accumulator.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Battery": 5.0,
+        "Iron_plate": 2.0
+      }
+    },
+    "Nuclear_reactor": {
+      "name": "Nuclear reactor",
+      "basic": false,
+      "icon": "Nuclear_reactor.png",
+      "amount": 1.0,
+      "time": 8.0,
+      "recipe": {
+        "Advanced_circuit": 500.0,
+        "Concrete": 500.0,
+        "Copper_plate": 500.0,
+        "Steel_plate": 500.0
+      }
+    },
+    "Heat_exchanger": {
+      "name": "Heat exchanger",
+      "basic": false,
+      "icon": "Heat_exchanger.png",
+      "amount": 1.0,
+      "time": 3.0,
+      "recipe": {
+        "Copper_plate": 100.0,
+        "Pipe": 10.0,
+        "Steel_plate": 10.0
+      }
+    },
+    "Heat_pipe": {
+      "name": "Heat pipe",
+      "basic": false,
+      "icon": "Heat_pipe.png",
+      "amount": 1.0,
+      "time": 1.0,
+      "recipe": {
+        "Copper_plate": 20.0,
+        "Steel_plate": 10.0
+      }
+    },
+    "Burner_mining_drill": {
+      "name": "Burner mining drill",
+      "basic": false,
+      "icon": "Burner_mining_drill.png",
+      "amount": 1.0,
+      "time": 4.0,
+      "recipe": {
+        "Iron_gear_wheel": 6.0,
+        "Iron_plate": 6.0,
+        "Stone_furnace": 2.0
+      }
+    },
+    "Electric_mining_drill": {
+      "name": "Electric mining drill",
+      "basic": false,
+      "icon": "Electric_mining_drill.png",
+      "amount": 1.0,
+      "time": 2.0,
+      "recipe": {
+        "Electronic_circuit": 5.0,
+        "Iron_gear_wheel": 10.0,
+        "Iron_plate": 20.0
+      }
+    },
+    "Offshore_pump": {
+      "name": "Offshore pump",
+      "basic": false,
+      "icon": "Offshore_pump.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Electronic_circuit": 2.0,
+        "Iron_gear_wheel": 1.0,
+        "Pipe": 1.0
+      }
+    },
+    "Pumpjack": {
+      "name": "Pumpjack",
+      "basic": false,
+      "icon": "Pumpjack.png",
+      "amount": 1.0,
+      "time": 5.0,
+      "recipe": {
+        "Electronic_circuit": 5.0,
+        "Iron_gear_wheel": 10.0,
+        "Pipe": 10.0,
+        "Steel_plate": 5.0
+      }
+    },
+    "Stone_furnace": {
+      "name": "Stone furnace",
+      "basic": false,
+      "icon": "Stone_furnace.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Stone": 5.0
+      }
+    },
+    "Steel_furnace": {
+      "name": "Steel furnace",
+      "basic": false,
+      "icon": "Steel_furnace.png",
+      "amount": 1.0,
+      "time": 3.0,
+      "recipe": {
+        "Steel_plate": 6.0,
+        "Stone_brick": 10.0
+      }
+    },
+    "Electric_furnace": {
+      "name": "Electric furnace",
+      "basic": false,
+      "icon": "Electric_furnace.png",
+      "amount": 1.0,
+      "time": 5.0,
+      "recipe": {
+        "Advanced_circuit": 5.0,
+        "Steel_plate": 10.0,
+        "Stone_brick": 10.0
+      }
+    },
+    "Assembling_machine_1": {
+      "name": "Assembling machine 1",
+      "basic": false,
+      "icon": "Assembling_machine_1.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Electronic_circuit": 3.0,
+        "Iron_gear_wheel": 5.0,
+        "Iron_plate": 9.0
+      }
+    },
+    "Assembling_machine_2": {
+      "name": "Assembling machine 2",
+      "basic": false,
+      "icon": "Assembling_machine_2.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Assembling_machine_1": 1.0,
+        "Electronic_circuit": 5.0,
+        "Iron_gear_wheel": 10.0,
+        "Steel_plate": 5.0
+      }
+    },
+    "Assembling_machine_3": {
+      "name": "Assembling machine 3",
+      "basic": false,
+      "icon": "Assembling_machine_3.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Assembling_machine_2": 2.0,
+        "Speed_module": 4.0
+      }
+    },
+    "Oil_refinery": {
+      "name": "Oil refinery",
+      "basic": false,
+      "icon": "Oil_refinery.png",
+      "amount": 1.0,
+      "time": 8.0,
+      "recipe": {
+        "Electronic_circuit": 10.0,
+        "Iron_gear_wheel": 10.0,
+        "Pipe": 10.0,
+        "Steel_plate": 15.0,
+        "Stone_brick": 10.0
+      }
+    },
+    "Chemical_plant": {
+      "name": "Chemical plant",
+      "basic": false,
+      "icon": "Chemical_plant.png",
+      "amount": 1.0,
+      "time": 5.0,
+      "recipe": {
+        "Electronic_circuit": 5.0,
+        "Iron_gear_wheel": 5.0,
+        "Pipe": 5.0,
+        "Steel_plate": 5.0
+      }
+    },
+    "Centrifuge": {
+      "name": "Centrifuge",
+      "basic": false,
+      "icon": "Centrifuge.png",
+      "amount": 1.0,
+      "time": 4.0,
+      "recipe": {
+        "Advanced_circuit": 100.0,
+        "Concrete": 100.0,
+        "Iron_gear_wheel": 100.0,
+        "Steel_plate": 50.0
+      }
+    },
+    "Lab": {
+      "name": "Lab",
+      "basic": false,
+      "icon": "Lab.png",
+      "amount": 1.0,
+      "time": 2.0,
+      "recipe": {
+        "Electronic_circuit": 10.0,
+        "Iron_gear_wheel": 10.0,
+        "Transport_belt": 4.0
+      }
+    },
+    "Beacon": {
+      "name": "Beacon",
+      "basic": false,
+      "icon": "Beacon.png",
+      "amount": 1.0,
+      "time": 15.0,
+      "recipe": {
+        "Advanced_circuit": 20.0,
+        "Copper_cable": 10.0,
+        "Electronic_circuit": 20.0,
+        "Steel_plate": 10.0
+      }
+    },
+    "Speed_module": {
+      "name": "Speed module",
+      "basic": false,
+      "icon": "Speed_module.png",
+      "amount": 1.0,
+      "time": 15.0,
+      "recipe": {
+        "Advanced_circuit": 5.0,
+        "Electronic_circuit": 5.0
+      }
+    },
+    "Speed_module_2": {
+      "name": "Speed module 2",
+      "basic": false,
+      "icon": "Speed_module_2.png",
+      "amount": 1.0,
+      "time": 30.0,
+      "recipe": {
+        "Advanced_circuit": 5.0,
+        "Processing_unit": 5.0,
+        "Speed_module": 4.0
+      }
+    },
+    "Speed_module_3": {
+      "name": "Speed module 3",
+      "basic": false,
+      "icon": "Speed_module_3.png",
+      "amount": 1.0,
+      "time": 60.0,
+      "recipe": {
+        "Advanced_circuit": 5.0,
+        "Processing_unit": 5.0,
+        "Speed_module_2": 5.0
+      }
+    },
+    "Efficiency_module": {
+      "name": "Efficiency module",
+      "basic": false,
+      "icon": "Efficiency_module.png",
+      "amount": 1.0,
+      "time": 15.0,
+      "recipe": {
+        "Advanced_circuit": 5.0,
+        "Electronic_circuit": 5.0
+      }
+    },
+    "Efficiency_module_2": {
+      "name": "Efficiency module 2",
+      "basic": false,
+      "icon": "Efficiency_module_2.png",
+      "amount": 1.0,
+      "time": 30.0,
+      "recipe": {
+        "Advanced_circuit": 5.0,
+        "Efficiency_module": 4.0,
+        "Processing_unit": 5.0
+      }
+    },
+    "Efficiency_module_3": {
+      "name": "Efficiency module 3",
+      "basic": false,
+      "icon": "Efficiency_module_3.png",
+      "amount": 1.0,
+      "time": 60.0,
+      "recipe": {
+        "Advanced_circuit": 5.0,
+        "Efficiency_module_2": 5.0,
+        "Processing_unit": 5.0
+      }
+    },
+    "Productivity_module": {
+      "name": "Productivity module",
+      "basic": false,
+      "icon": "Productivity_module.png",
+      "amount": 1.0,
+      "time": 15.0,
+      "recipe": {
+        "Advanced_circuit": 5.0,
+        "Electronic_circuit": 5.0
+      }
+    },
+    "Productivity_module_2": {
+      "name": "Productivity module 2",
+      "basic": false,
+      "icon": "Productivity_module_2.png",
+      "amount": 1.0,
+      "time": 30.0,
+      "recipe": {
+        "Advanced_circuit": 5.0,
+        "Processing_unit": 5.0,
+        "Productivity_module": 4.0
+      }
+    },
+    "Productivity_module_3": {
+      "name": "Productivity module 3",
+      "basic": false,
+      "icon": "Productivity_module_3.png",
+      "amount": 1.0,
+      "time": 60.0,
+      "recipe": {
+        "Advanced_circuit": 5.0,
+        "Processing_unit": 5.0,
+        "Productivity_module_2": 5.0
+      }
+    },
+    "Wood": {
+      "name": "Wood",
+      "basic": true,
+      "icon": "Wood.png"
+    },
+    "Coal": {
+      "name": "Coal",
+      "basic": true,
+      "icon": "Coal.png"
+    },
+    "Stone": {
+      "name": "Stone",
+      "basic": true,
+      "icon": "Stone.png"
+    },
+    "Iron_ore": {
+      "name": "Iron ore",
+      "basic": true,
+      "icon": "Iron_ore.png"
+    },
+    "Copper_ore": {
+      "name": "Copper ore",
+      "basic": true,
+      "icon": "Copper_ore.png"
+    },
+    "Uranium_ore": {
+      "name": "Uranium ore",
+      "basic": true,
+      "icon": "Uranium_ore.png"
+    },
+    "Raw_fish": {
+      "name": "Raw fish",
+      "basic": true,
+      "icon": "Raw_fish.png"
+    },
+    "Crude_oil": {
+      "name": "Crude oil",
+      "basic": true,
+      "icon": "Crude_oil.png"
+    },
+    "Heavy_oil": {
+      "name": "Heavy oil",
+      "basic": true,
+      "icon": "Heavy_oil.png"
+    },
+    "Light_oil": {
+      "name": "Light oil",
+      "basic": true,
+      "icon": "Light_oil.png"
+    },
+    "Lubricant": {
+      "name": "Lubricant",
+      "basic": false,
+      "icon": "Lubricant.png",
+      "amount": 10.0,
+      "time": 1.0,
+      "recipe": {
+        "Heavy_oil": 10.0
+      }
+    },
+    "Petroleum_gas": {
+      "name": "Petroleum gas",
+      "basic": true,
+      "icon": "Petroleum_gas.png"
+    },
+    "Sulfuric_acid": {
+      "name": "Sulfuric acid",
+      "basic": false,
+      "icon": "Sulfuric_acid.png",
+      "amount": 50.0,
+      "time": 1.0,
+      "recipe": {
+        "Iron_plate": 1.0,
+        "Sulfur": 5.0,
+        "Water": 100.0
+      }
+    },
+    "Water": {
+      "name": "Water",
+      "basic": true,
+      "icon": "Water.png"
+    },
+    "Steam": {
+      "name": "Steam",
+      "basic": true,
+      "icon": "Steam.png"
+    },
+    "Iron_plate": {
+      "name": "Iron plate",
+      "basic": false,
+      "icon": "Iron_plate.png",
+      "amount": 1.0,
+      "time": 3.2,
+      "recipe": {
+        "Iron_ore": 1.0
+      }
+    },
+    "Copper_plate": {
+      "name": "Copper plate",
+      "basic": false,
+      "icon": "Copper_plate.png",
+      "amount": 1.0,
+      "time": 3.2,
+      "recipe": {
+        "Copper_ore": 1.0
+      }
+    },
+    "Solid_fuel": {
+      "name": "Solid fuel",
+      "basic": true,
+      "icon": "Solid_fuel.png"
+    },
+    "Steel_plate": {
+      "name": "Steel plate",
+      "basic": false,
+      "icon": "Steel_plate.png",
+      "amount": 1.0,
+      "time": 32.0,
+      "recipe": {
+        "Iron_plate": 10.0
+      }
+    },
+    "Plastic_bar": {
+      "name": "Plastic bar",
+      "basic": false,
+      "icon": "Plastic_bar.png",
+      "amount": 2.0,
+      "time": 1.0,
+      "recipe": {
+        "Coal": 1.0,
+        "Petroleum_gas": 20.0
+      }
+    },
+    "Sulfur": {
+      "name": "Sulfur",
+      "basic": false,
+      "icon": "Sulfur.png",
+      "amount": 2.0,
+      "time": 1.0,
+      "recipe": {
+        "Petroleum_gas": 30.0,
+        "Water": 30.0
+      }
+    },
+    "Battery": {
+      "name": "Battery",
+      "basic": false,
+      "icon": "Battery.png",
+      "amount": 1.0,
+      "time": 5.0,
+      "recipe": {
+        "Copper_plate": 1.0,
+        "Iron_plate": 1.0,
+        "Sulfuric_acid": 40.0
+      }
+    },
+    "Explosives": {
+      "name": "Explosives",
+      "basic": false,
+      "icon": "Explosives.png",
+      "amount": 2.0,
+      "time": 5.0,
+      "recipe": {
+        "Coal": 2.0,
+        "Sulfur": 2.0,
+        "Water": 10.0
+      }
+    },
+    "Uranium_processing": {
+      "name": "Uranium-238",
+      "basic": false,
+      "icon": "Uranium-238.png",
+      "amount": 0.993,
+      "time": 12.0,
+      "recipe": {
+        "Uranium_ore": 10.0,
+        "Uranium-235": 0.007
+      }
+    },
+    "Copper_cable": {
+      "name": "Copper cable",
+      "basic": false,
+      "icon": "Copper_cable.png",
+      "amount": 2.0,
+      "time": 0.5,
+      "recipe": {
+        "Copper_plate": 1.0
+      }
+    },
+    "Iron_stick": {
+      "name": "Iron stick",
+      "basic": false,
+      "icon": "Iron_stick.png",
+      "amount": 2.0,
+      "time": 0.5,
+      "recipe": {
+        "Iron_plate": 1.0
+      }
+    },
+    "Iron_gear_wheel": {
+      "name": "Iron gear wheel",
+      "basic": false,
+      "icon": "Iron_gear_wheel.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Iron_plate": 4.0
+      }
+    },
+    "Electronic_circuit": {
+      "name": "Electronic circuit",
+      "basic": false,
+      "icon": "Electronic_circuit.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Copper_cable": 10.0,
+        "Iron_plate": 2.0
+      }
+    },
+    "Advanced_circuit": {
+      "name": "Advanced circuit",
+      "basic": false,
+      "icon": "Advanced_circuit.png",
+      "amount": 1.0,
+      "time": 6.0,
+      "recipe": {
+        "Copper_cable": 8.0,
+        "Electronic_circuit": 2.0,
+        "Plastic_bar": 4.0
+      }
+    },
+    "Processing_unit": {
+      "name": "Processing unit",
+      "basic": false,
+      "icon": "Processing_unit.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Advanced_circuit": 2.0,
+        "Electronic_circuit": 20.0,
+        "Sulfuric_acid": 10.0
+      }
+    },
+    "Engine_unit": {
+      "name": "Engine unit",
+      "basic": false,
+      "icon": "Engine_unit.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Iron_gear_wheel": 1.0,
+        "Pipe": 2.0,
+        "Steel_plate": 1.0
+      }
+    },
+    "Electric_engine_unit": {
+      "name": "Electric engine unit",
+      "basic": false,
+      "icon": "Electric_engine_unit.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Electronic_circuit": 2.0,
+        "Engine_unit": 1.0,
+        "Lubricant": 15.0
+      }
+    },
+    "Flying_robot_frame": {
+      "name": "Flying robot frame",
+      "basic": false,
+      "icon": "Flying_robot_frame.png",
+      "amount": 1.0,
+      "time": 20.0,
+      "recipe": {
+        "Battery": 2.0,
+        "Electric_engine_unit": 1.0,
+        "Electronic_circuit": 3.0,
+        "Steel_plate": 1.0
+      }
+    },
+    "Satellite": {
+      "name": "Satellite",
+      "basic": false,
+      "icon": "Satellite.png",
+      "amount": 1.0,
+      "time": 5.0,
+      "recipe": {
+        "Accumulator": 100.0,
+        "Low_density_structure": 100.0,
+        "Processing_unit": 100.0,
+        "Radar": 5.0,
+        "Rocket_fuel": 50.0,
+        "Solar_panel": 100.0
+      }
+    },
+    "Rocket_part": {
+      "name": "Rocket part",
+      "basic": false,
+      "icon": "Rocket_part.png",
+      "amount": 1.0,
+      "time": 3.0,
+      "recipe": {
+        "Low_density_structure": 10.0,
+        "Rocket_control_unit": 10.0,
+        "Rocket_fuel": 10.0
+      }
+    },
+    "Rocket_control_unit": {
+      "name": "Rocket control unit",
+      "basic": false,
+      "icon": "Rocket_control_unit.png",
+      "amount": 1.0,
+      "time": 30.0,
+      "recipe": {
+        "Processing_unit": 1.0,
+        "Speed_module": 1.0
+      }
+    },
+    "Low_density_structure": {
+      "name": "Low density structure",
+      "basic": false,
+      "icon": "Low_density_structure.png",
+      "amount": 1.0,
+      "time": 20.0,
+      "recipe": {
+        "Copper_plate": 20.0,
+        "Plastic_bar": 30.0,
+        "Steel_plate": 2.0
+      }
+    },
+    "Rocket_fuel": {
+      "name": "Rocket fuel",
+      "basic": false,
+      "icon": "Rocket_fuel.png",
+      "amount": 1.0,
+      "time": 30.0,
+      "recipe": {
+        "Solid_fuel": 10.0
+      }
+    },
+    "Nuclear_fuel": {
+      "name": "Nuclear fuel",
+      "basic": false,
+      "icon": "Nuclear_fuel.png",
+      "amount": 1.0,
+      "time": 90.0,
+      "recipe": {
+        "Rocket_fuel": 1.0,
+        "Uranium-235": 1.0
+      }
+    },
+    "Uranium-235": {
+      "name": "Uranium-238",
+      "basic": false,
+      "icon": "Uranium-238.png",
+      "amount": 0.993,
+      "time": 12.0,
+      "recipe": {
+        "Uranium_ore": 10.0,
+        "Uranium-235": 0.007
+      }
+    },
+    "Uranium-238": {
+      "name": "Uranium-238",
+      "basic": false,
+      "icon": "Uranium-238.png",
+      "amount": 0.993,
+      "time": 12.0,
+      "recipe": {
+        "Uranium_ore": 10.0,
+        "Uranium-235": 0.007
+      }
+    },
+    "Uranium_fuel_cell": {
+      "name": "Uranium fuel cell",
+      "basic": false,
+      "icon": "Uranium_fuel_cell.png",
+      "amount": 10.0,
+      "time": 10.0,
+      "recipe": {
+        "Iron_plate": 10.0,
+        "Uranium-235": 1.0,
+        "Uranium-238": 19.0
+      }
+    },
+    "Used_up_uranium_fuel_cell": {
+      "name": "Used up uranium fuel cell",
+      "basic": false,
+      "icon": "Used_up_uranium_fuel_cell.png",
+      "amount": 1.0,
+      "time": 200.0,
+      "recipe": {
+        "Uranium_fuel_cell": 1.0
+      }
+    },
+    "Nuclear_fuel_reprocessing": {
+      "name": "Uranium-238",
+      "basic": false,
+      "icon": "Uranium-238.png",
+      "amount": 3.0,
+      "time": 60.0,
+      "recipe": {
+        "Used_up_uranium_fuel_cell": 5.0
+      }
+    },
+    "Kovarex_enrichment_process": {
+      "name": "Uranium-238",
+      "basic": false,
+      "icon": "Uranium-238.png",
+      "amount": 2.0,
+      "time": 60.0,
+      "recipe": {
+        "Uranium-235": 41.0,
+        "Uranium-238": 5.0
+      }
+    },
+    "Automation_science_pack": {
+      "name": "Automation science pack",
+      "basic": false,
+      "icon": "Automation_science_pack.png",
+      "amount": 1.0,
+      "time": 5.0,
+      "recipe": {
+        "Copper_plate": 1.0,
+        "Iron_gear_wheel": 1.0
+      }
+    },
+    "Logistic_science_pack": {
+      "name": "Logistic science pack",
+      "basic": false,
+      "icon": "Logistic_science_pack.png",
+      "amount": 1.0,
+      "time": 6.0,
+      "recipe": {
+        "Inserter": 1.0,
+        "Transport_belt": 1.0
+      }
+    },
+    "Military_science_pack": {
+      "name": "Military science pack",
+      "basic": false,
+      "icon": "Military_science_pack.png",
+      "amount": 2.0,
+      "time": 10.0,
+      "recipe": {
+        "Grenade": 1.0,
+        "Piercing_rounds_magazine": 1.0,
+        "Wall": 2.0
+      }
+    },
+    "Chemical_science_pack": {
+      "name": "Chemical science pack",
+      "basic": false,
+      "icon": "Chemical_science_pack.png",
+      "amount": 2.0,
+      "time": 24.0,
+      "recipe": {
+        "Advanced_circuit": 3.0,
+        "Engine_unit": 2.0,
+        "Solid_fuel": 1.0
+      }
+    },
+    "Production_science_pack": {
+      "name": "Production science pack",
+      "basic": false,
+      "icon": "Production_science_pack.png",
+      "amount": 3.0,
+      "time": 21.0,
+      "recipe": {
+        "Electric_furnace": 1.0,
+        "Productivity_module": 1.0,
+        "Rail": 30.0
+      }
+    },
+    "Utility_science_pack": {
+      "name": "Utility science pack",
+      "basic": false,
+      "icon": "Utility_science_pack.png",
+      "amount": 3.0,
+      "time": 21.0,
+      "recipe": {
+        "Flying_robot_frame": 1.0,
+        "Low_density_structure": 3.0,
+        "Processing_unit": 2.0
+      }
+    },
+    "Space_science_pack": {
+      "name": "Space science pack",
+      "basic": true,
+      "icon": "Space_science_pack.png"
+    },
+    "Pistol": {
+      "name": "Pistol",
+      "basic": false,
+      "icon": "Pistol.png",
+      "amount": 1.0,
+      "time": 5.0,
+      "recipe": {
+        "Copper_plate": 5.0,
+        "Iron_plate": 5.0
+      }
+    },
+    "Submachine_gun": {
+      "name": "Submachine gun",
+      "basic": false,
+      "icon": "Submachine_gun.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Copper_plate": 20.0,
+        "Iron_gear_wheel": 15.0,
+        "Iron_plate": 30.0
+      }
+    },
+    "Shotgun": {
+      "name": "Shotgun",
+      "basic": false,
+      "icon": "Shotgun.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Copper_plate": 10.0,
+        "Iron_gear_wheel": 5.0,
+        "Iron_plate": 15.0,
+        "Wood": 5.0
+      }
+    },
+    "Combat_shotgun": {
+      "name": "Combat shotgun",
+      "basic": false,
+      "icon": "Combat_shotgun.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Copper_plate": 10.0,
+        "Iron_gear_wheel": 5.0,
+        "Steel_plate": 15.0,
+        "Wood": 10.0
+      }
+    },
+    "Rocket_launcher": {
+      "name": "Rocket launcher",
+      "basic": false,
+      "icon": "Rocket_launcher.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Electronic_circuit": 5.0,
+        "Iron_gear_wheel": 5.0,
+        "Iron_plate": 5.0
+      }
+    },
+    "Flamethrower": {
+      "name": "Flamethrower",
+      "basic": false,
+      "icon": "Flamethrower.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Iron_gear_wheel": 10.0,
+        "Steel_plate": 5.0
+      }
+    },
+    "Land_mine": {
+      "name": "Land mine",
+      "basic": false,
+      "icon": "Land_mine.png",
+      "amount": 4.0,
+      "time": 5.0,
+      "recipe": {
+        "Explosives": 2.0,
+        "Steel_plate": 1.0
+      }
+    },
+    "Firearm_magazine": {
+      "name": "Firearm magazine",
+      "basic": false,
+      "icon": "Firearm_magazine.png",
+      "amount": 1.0,
+      "time": 1.0,
+      "recipe": {
+        "Iron_plate": 4.0
+      }
+    },
+    "Piercing_rounds_magazine": {
+      "name": "Piercing rounds magazine",
+      "basic": false,
+      "icon": "Piercing_rounds_magazine.png",
+      "amount": 1.0,
+      "time": 3.0,
+      "recipe": {
+        "Copper_plate": 5.0,
+        "Firearm_magazine": 1.0,
+        "Steel_plate": 1.0
+      }
+    },
+    "Uranium_rounds_magazine": {
+      "name": "Uranium rounds magazine",
+      "basic": false,
+      "icon": "Uranium_rounds_magazine.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Piercing_rounds_magazine": 1.0,
+        "Uranium-238": 1.0
+      }
+    },
+    "Shotgun_shells": {
+      "name": "Shotgun shells",
+      "basic": false,
+      "icon": "Shotgun_shells.png",
+      "amount": 1.0,
+      "time": 3.0,
+      "recipe": {
+        "Copper_plate": 2.0,
+        "Iron_plate": 2.0
+      }
+    },
+    "Piercing_shotgun_shells": {
+      "name": "Piercing shotgun shells",
+      "basic": false,
+      "icon": "Piercing_shotgun_shells.png",
+      "amount": 1.0,
+      "time": 8.0,
+      "recipe": {
+        "Copper_plate": 5.0,
+        "Shotgun_shells": 2.0,
+        "Steel_plate": 2.0
+      }
+    },
+    "Cannon_shell": {
+      "name": "Cannon shell",
+      "basic": false,
+      "icon": "Cannon_shell.png",
+      "amount": 1.0,
+      "time": 8.0,
+      "recipe": {
+        "Explosives": 1.0,
+        "Plastic_bar": 4.0,
+        "Steel_plate": 4.0
+      }
+    },
+    "Explosive_cannon_shell": {
+      "name": "Explosive cannon shell",
+      "basic": false,
+      "icon": "Explosive_cannon_shell.png",
+      "amount": 1.0,
+      "time": 8.0,
+      "recipe": {
+        "Explosives": 2.0,
+        "Plastic_bar": 4.0,
+        "Steel_plate": 4.0
+      }
+    },
+    "Uranium_cannon_shell": {
+      "name": "Uranium cannon shell",
+      "basic": false,
+      "icon": "Uranium_cannon_shell.png",
+      "amount": 1.0,
+      "time": 12.0,
+      "recipe": {
+        "Cannon_shell": 1.0,
+        "Uranium-238": 1.0
+      }
+    },
+    "Explosive_uranium_cannon_shell": {
+      "name": "Explosive uranium cannon shell",
+      "basic": false,
+      "icon": "Explosive_uranium_cannon_shell.png",
+      "amount": 1.0,
+      "time": 12.0,
+      "recipe": {
+        "Explosive_cannon_shell": 1.0,
+        "Uranium-238": 1.0
+      }
+    },
+    "Artillery_shell": {
+      "name": "Artillery shell",
+      "basic": false,
+      "icon": "Artillery_shell.png",
+      "amount": 1.0,
+      "time": 15.0,
+      "recipe": {
+        "Explosive_cannon_shell": 4.0,
+        "Explosives": 8.0,
+        "Radar": 1.0
+      }
+    },
+    "Rocket": {
+      "name": "Rocket",
+      "basic": false,
+      "icon": "Rocket.png",
+      "amount": 1.0,
+      "time": 8.0,
+      "recipe": {
+        "Electronic_circuit": 1.0,
+        "Explosives": 1.0,
+        "Iron_plate": 2.0
+      }
+    },
+    "Explosive_rocket": {
+      "name": "Explosive rocket",
+      "basic": false,
+      "icon": "Explosive_rocket.png",
+      "amount": 1.0,
+      "time": 8.0,
+      "recipe": {
+        "Explosives": 2.0,
+        "Rocket": 1.0
+      }
+    },
+    "Atomic_bomb": {
+      "name": "Atomic bomb",
+      "basic": false,
+      "icon": "Atomic_bomb.png",
+      "amount": 1.0,
+      "time": 50.0,
+      "recipe": {
+        "Explosives": 10.0,
+        "Rocket_control_unit": 10.0,
+        "Uranium-235": 30.0
+      }
+    },
+    "Flamethrower_ammo": {
+      "name": "Flamethrower ammo",
+      "basic": false,
+      "icon": "Flamethrower_ammo.png",
+      "amount": 1.0,
+      "time": 6.0,
+      "recipe": {
+        "Heavy_oil": 50.0,
+        "Light_oil": 50.0,
+        "Steel_plate": 5.0
+      }
+    },
+    "Grenade": {
+      "name": "Grenade",
+      "basic": false,
+      "icon": "Grenade.png",
+      "amount": 1.0,
+      "time": 8.0,
+      "recipe": {
+        "Coal": 10.0,
+        "Iron_plate": 5.0
+      }
+    },
+    "Cluster_grenade": {
+      "name": "Cluster grenade",
+      "basic": false,
+      "icon": "Cluster_grenade.png",
+      "amount": 1.0,
+      "time": 8.0,
+      "recipe": {
+        "Explosives": 5.0,
+        "Grenade": 7.0,
+        "Steel_plate": 5.0
+      }
+    },
+    "Poison_capsule": {
+      "name": "Poison capsule",
+      "basic": false,
+      "icon": "Poison_capsule.png",
+      "amount": 1.0,
+      "time": 8.0,
+      "recipe": {
+        "Coal": 10.0,
+        "Electronic_circuit": 3.0,
+        "Steel_plate": 3.0
+      }
+    },
+    "Slowdown_capsule": {
+      "name": "Slowdown capsule",
+      "basic": false,
+      "icon": "Slowdown_capsule.png",
+      "amount": 1.0,
+      "time": 8.0,
+      "recipe": {
+        "Coal": 5.0,
+        "Electronic_circuit": 2.0,
+        "Steel_plate": 2.0
+      }
+    },
+    "Defender_capsule": {
+      "name": "Defender capsule",
+      "basic": false,
+      "icon": "Defender_capsule.png",
+      "amount": 1.0,
+      "time": 8.0,
+      "recipe": {
+        "Flying_robot_frame": 1.0,
+        "Iron_gear_wheel": 3.0,
+        "Piercing_rounds_magazine": 1.0
+      }
+    },
+    "Distractor_capsule": {
+      "name": "Distractor capsule",
+      "basic": false,
+      "icon": "Distractor_capsule.png",
+      "amount": 1.0,
+      "time": 15.0,
+      "recipe": {
+        "Advanced_circuit": 3.0,
+        "Defender_capsule": 4.0
+      }
+    },
+    "Destroyer_capsule": {
+      "name": "Destroyer capsule",
+      "basic": false,
+      "icon": "Destroyer_capsule.png",
+      "amount": 1.0,
+      "time": 15.0,
+      "recipe": {
+        "Distractor_capsule": 4.0,
+        "Speed_module": 1.0
+      }
+    },
+    "Discharge_defense_remote": {
+      "name": "Discharge defense remote",
+      "basic": false,
+      "icon": "Discharge_defense_remote.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Electronic_circuit": 1.0
+      }
+    },
+    "Artillery_targeting_remote": {
+      "name": "Artillery targeting remote",
+      "basic": false,
+      "icon": "Artillery_targeting_remote.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Processing_unit": 1.0,
+        "Radar": 1.0
+      }
+    },
+    "Light_armor": {
+      "name": "Light armor",
+      "basic": false,
+      "icon": "Light_armor.png",
+      "amount": 1.0,
+      "time": 3.0,
+      "recipe": {
+        "Iron_plate": 40.0
+      }
+    },
+    "Heavy_armor": {
+      "name": "Heavy armor",
+      "basic": false,
+      "icon": "Heavy_armor.png",
+      "amount": 1.0,
+      "time": 8.0,
+      "recipe": {
+        "Copper_plate": 100.0,
+        "Steel_plate": 50.0
+      }
+    },
+    "Modular_armor": {
+      "name": "Modular armor",
+      "basic": false,
+      "icon": "Modular_armor.png",
+      "amount": 1.0,
+      "time": 15.0,
+      "recipe": {
+        "Advanced_circuit": 30.0,
+        "Steel_plate": 50.0
+      }
+    },
+    "Power_armor": {
+      "name": "Power armor",
+      "basic": false,
+      "icon": "Power_armor.png",
+      "amount": 1.0,
+      "time": 20.0,
+      "recipe": {
+        "Electric_engine_unit": 20.0,
+        "Processing_unit": 40.0,
+        "Steel_plate": 40.0
+      }
+    },
+    "Power_armor_MK2": {
+      "name": "Power armor MK2",
+      "basic": false,
+      "icon": "Power_armor_MK2.png",
+      "amount": 1.0,
+      "time": 25.0,
+      "recipe": {
+        "Efficiency_module_2": 25.0,
+        "Electric_engine_unit": 40.0,
+        "Low_density_structure": 30.0,
+        "Processing_unit": 60.0,
+        "Speed_module_2": 25.0
+      }
+    },
+    "Portable_solar_panel": {
+      "name": "Portable solar panel",
+      "basic": false,
+      "icon": "Portable_solar_panel.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Advanced_circuit": 2.0,
+        "Solar_panel": 1.0,
+        "Steel_plate": 5.0
+      }
+    },
+    "Portable_fusion_reactor": {
+      "name": "Portable fusion reactor",
+      "basic": false,
+      "icon": "Portable_fusion_reactor.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Low_density_structure": 50.0,
+        "Processing_unit": 200.0
+      }
+    },
+    "Energy_shield": {
+      "name": "Energy shield",
+      "basic": false,
+      "icon": "Energy_shield.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Advanced_circuit": 5.0,
+        "Steel_plate": 10.0
+      }
+    },
+    "Energy_shield_MK2": {
+      "name": "Energy shield MK2",
+      "basic": false,
+      "icon": "Energy_shield_MK2.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Energy_shield": 10.0,
+        "Low_density_structure": 5.0,
+        "Processing_unit": 5.0
+      }
+    },
+    "Personal_battery": {
+      "name": "Personal battery",
+      "basic": false,
+      "icon": "Personal_battery.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Battery": 5.0,
+        "Steel_plate": 10.0
+      }
+    },
+    "Personal_battery_MK2": {
+      "name": "Personal battery MK2",
+      "basic": false,
+      "icon": "Personal_battery_MK2.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Personal_battery": 10.0,
+        "Low_density_structure": 5.0,
+        "Processing_unit": 15.0
+      }
+    },
+    "Personal_laser_defense": {
+      "name": "Personal laser defense",
+      "basic": false,
+      "icon": "Personal_laser_defense.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Laser_turret": 5.0,
+        "Low_density_structure": 5.0,
+        "Processing_unit": 20.0
+      }
+    },
+    "Discharge_defense": {
+      "name": "Discharge defense",
+      "basic": false,
+      "icon": "Discharge_defense.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Laser_turret": 10.0,
+        "Processing_unit": 5.0,
+        "Steel_plate": 20.0
+      }
+    },
+    "Belt_immunity_equipment": {
+      "name": "Belt immunity equipment",
+      "basic": false,
+      "icon": "Belt_immunity_equipment.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Advanced_circuit": 5.0,
+        "Steel_plate": 10.0
+      }
+    },
+    "Exoskeleton": {
+      "name": "Exoskeleton",
+      "basic": false,
+      "icon": "Exoskeleton.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Electric_engine_unit": 30.0,
+        "Processing_unit": 10.0,
+        "Steel_plate": 20.0
+      }
+    },
+    "Personal_roboport": {
+      "name": "Personal roboport",
+      "basic": false,
+      "icon": "Personal_roboport.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Advanced_circuit": 10.0,
+        "Battery": 45.0,
+        "Iron_gear_wheel": 40.0,
+        "Steel_plate": 20.0
+      }
+    },
+    "Personal_roboport_MK2": {
+      "name": "Personal roboport MK2",
+      "basic": false,
+      "icon": "Personal_roboport_MK2.png",
+      "amount": 1.0,
+      "time": 20.0,
+      "recipe": {
+        "Low_density_structure": 20.0,
+        "Personal_roboport": 5.0,
+        "Processing_unit": 100.0
+      }
+    },
+    "Nightvision": {
+      "name": "Nightvision",
+      "basic": false,
+      "icon": "Nightvision.png",
+      "amount": 1.0,
+      "time": 10.0,
+      "recipe": {
+        "Advanced_circuit": 5.0,
+        "Steel_plate": 10.0
+      }
+    },
+    "Wall": {
+      "name": "Wall",
+      "basic": false,
+      "icon": "Wall.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Stone_brick": 5.0
+      }
+    },
+    "Gate": {
+      "name": "Gate",
+      "basic": false,
+      "icon": "Gate.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Electronic_circuit": 2.0,
+        "Steel_plate": 2.0,
+        "Wall": 1.0
+      }
+    },
+    "Gun_turret": {
+      "name": "Gun turret",
+      "basic": false,
+      "icon": "Gun_turret.png",
+      "amount": 1.0,
+      "time": 8.0,
+      "recipe": {
+        "Copper_plate": 10.0,
+        "Iron_gear_wheel": 10.0,
+        "Iron_plate": 20.0
+      }
+    },
+    "Laser_turret": {
+      "name": "Laser turret",
+      "basic": false,
+      "icon": "Laser_turret.png",
+      "amount": 1.0,
+      "time": 20.0,
+      "recipe": {
+        "Battery": 12.0,
+        "Electronic_circuit": 20.0,
+        "Steel_plate": 20.0
+      }
+    },
+    "Flamethrower_turret": {
+      "name": "Flamethrower turret",
+      "basic": false,
+      "icon": "Flamethrower_turret.png",
+      "amount": 1.0,
+      "time": 20.0,
+      "recipe": {
+        "Engine_unit": 5.0,
+        "Iron_gear_wheel": 15.0,
+        "Pipe": 10.0,
+        "Steel_plate": 30.0
+      }
+    },
+    "Artillery_turret": {
+      "name": "Artillery turret",
+      "basic": false,
+      "icon": "Artillery_turret.png",
+      "amount": 1.0,
+      "time": 40.0,
+      "recipe": {
+        "Advanced_circuit": 20.0,
+        "Concrete": 60.0,
+        "Iron_gear_wheel": 40.0,
+        "Steel_plate": 60.0
+      }
+    },
+    "Radar": {
+      "name": "Radar",
+      "basic": false,
+      "icon": "Radar.png",
+      "amount": 1.0,
+      "time": 0.5,
+      "recipe": {
+        "Electronic_circuit": 5.0,
+        "Iron_gear_wheel": 5.0,
+        "Iron_plate": 10.0
+      }
+    },
+    "Rocket_silo": {
+      "name": "Rocket silo",
+      "basic": false,
+      "icon": "Rocket_silo.png",
+      "amount": 1.0,
+      "time": 30.0,
+      "recipe": {
+        "Concrete": 1.0,
+        "Electric_engine_unit": 200.0,
+        "Pipe": 100.0,
+        "Processing_unit": 200.0,
+        "Steel_plate": 1.0
+      }
+    }
+  }
+}
