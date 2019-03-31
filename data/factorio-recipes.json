@@ -15,10 +15,10 @@
       "basic": false,
       "icon": "Crude_oil_barrel.png",
       "amount": 1,
-      "time": "0.2",
+      "time": 0.2,
       "recipe": {
         "Empty_barrel": 1,
-        "Crude_oil": "50"
+        "Crude_oil": 50
       }
     },
     "Heavy_oil_barrel": {
@@ -26,10 +26,10 @@
       "basic": false,
       "icon": "Heavy_oil_barrel.png",
       "amount": 1,
-      "time": "0.2",
+      "time": 0.2,
       "recipe": {
         "Empty_barrel": 1,
-        "Heavy_oil": "50"
+        "Heavy_oil": 50
       }
     },
     "Light_oil_barrel": {
@@ -37,10 +37,10 @@
       "basic": false,
       "icon": "Light_oil_barrel.png",
       "amount": 1,
-      "time": "0.2",
+      "time": 0.2,
       "recipe": {
         "Empty_barrel": 1,
-        "Light_oil": "50"
+        "Light_oil": 50
       }
     },
     "Lubricant_barrel": {
@@ -48,10 +48,10 @@
       "basic": false,
       "icon": "Lubricant_barrel.png",
       "amount": 1,
-      "time": "0.2",
+      "time": 0.2,
       "recipe": {
         "Empty_barrel": 1,
-        "Lubricant": "50"
+        "Lubricant": 50
       }
     },
     "Petroleum_gas_barrel": {
@@ -59,10 +59,10 @@
       "basic": false,
       "icon": "Petroleum_gas_barrel.png",
       "amount": 1,
-      "time": "0.2",
+      "time": 0.2,
       "recipe": {
         "Empty_barrel": 1,
-        "Petroleum_gas": "50"
+        "Petroleum_gas": 50
       }
     },
     "Sulfuric_acid_barrel": {
@@ -70,10 +70,10 @@
       "basic": false,
       "icon": "Sulfuric_acid_barrel.png",
       "amount": 1,
-      "time": "0.2",
+      "time": 0.2,
       "recipe": {
         "Empty_barrel": 1,
-        "Sulfuric_acid": "50"
+        "Sulfuric_acid": 50
       }
     },
     "Water_barrel": {
@@ -81,10 +81,10 @@
       "basic": false,
       "icon": "Water_barrel.png",
       "amount": 1,
-      "time": "0.2",
+      "time": 0.2,
       "recipe": {
         "Empty_barrel": 1,
-        "Water": "50"
+        "Water": 50
       }
     },
     "Wooden_chest": {
@@ -2357,10 +2357,10 @@
       "basic": false,
       "icon": "Crude_oil_barrel.png",
       "amount": 1,
-      "time": "0.2",
+      "time": 0.2,
       "recipe": {
         "Empty_barrel": 1,
-        "Crude_oil": "50"
+        "Crude_oil": 50
       }
     },
     "Heavy_oil_barrel": {
@@ -2368,10 +2368,10 @@
       "basic": false,
       "icon": "Heavy_oil_barrel.png",
       "amount": 1,
-      "time": "0.2",
+      "time": 0.2,
       "recipe": {
         "Empty_barrel": 1,
-        "Heavy_oil": "50"
+        "Heavy_oil": 50
       }
     },
     "Light_oil_barrel": {
@@ -2379,10 +2379,10 @@
       "basic": false,
       "icon": "Light_oil_barrel.png",
       "amount": 1,
-      "time": "0.2",
+      "time": 0.2,
       "recipe": {
         "Empty_barrel": 1,
-        "Light_oil": "50"
+        "Light_oil": 50
       }
     },
     "Lubricant_barrel": {
@@ -2390,10 +2390,10 @@
       "basic": false,
       "icon": "Lubricant_barrel.png",
       "amount": 1,
-      "time": "0.2",
+      "time": 0.2,
       "recipe": {
         "Empty_barrel": 1,
-        "Lubricant": "50"
+        "Lubricant": 50
       }
     },
     "Petroleum_gas_barrel": {
@@ -2401,10 +2401,10 @@
       "basic": false,
       "icon": "Petroleum_gas_barrel.png",
       "amount": 1,
-      "time": "0.2",
+      "time": 0.2,
       "recipe": {
         "Empty_barrel": 1,
-        "Petroleum_gas": "50"
+        "Petroleum_gas": 50
       }
     },
     "Sulfuric_acid_barrel": {
@@ -2412,10 +2412,10 @@
       "basic": false,
       "icon": "Sulfuric_acid_barrel.png",
       "amount": 1,
-      "time": "0.2",
+      "time": 0.2,
       "recipe": {
         "Empty_barrel": 1,
-        "Sulfuric_acid": "50"
+        "Sulfuric_acid": 50
       }
     },
     "Water_barrel": {
@@ -2423,10 +2423,10 @@
       "basic": false,
       "icon": "Water_barrel.png",
       "amount": 1,
-      "time": "0.2",
+      "time": 0.2,
       "recipe": {
         "Empty_barrel": 1,
-        "Water": "50"
+        "Water": 50
       }
     },
     "Wooden_chest": {
