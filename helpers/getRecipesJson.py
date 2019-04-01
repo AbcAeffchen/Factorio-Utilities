@@ -36,7 +36,7 @@ def extractBarrelRecipes():
     barrels['Empty_barrel'] = extractIngredients(re.findall(r'id="Empty_barrels"[\s\S]*?Recipe:([\s\S]*?)</tr>', barrelPage)[0])
 
     # find recipes for filled barrels
-    for barrel in re.findall(r'<tr>[\s]*<td>[\s\S]*?</td>[\s]*<td>[\s\S]*?class="factorio-icon-text"[\s\S]*?href="/([^"]+)[\s\S]*?class="factorio-icon-text">(\d+)[\s\S]*?class="factorio-icon-text">(\d+(\.\d+)?)[\s\S]*?<td>[\s\S]*?<td>[\s\S]*?"([^/]+)\.png"[\s\S]*?/([^/]+)\.png', re.findall(r'<h2><span class="mw-headline" id="Fill_barrels">Fill barrels<[\s\S]*?<table class="wikitable">([\s\S]*?)</table>', barrelPage)[0]):
+    for barrel in re.findall(r'<tr>[\s]*<td>[\s\S]*?</td>[\s]*<td>[\s\S]*?class="factorio-icon-text"[\s\S]*?href="/([^"]+)[\s\S]*?class="factorio-icon-text">(\d+)[\s\S]*?class="factorio-icon-text">(\d+(\.\d+)?)[\s\S]*?<td>[\s\S]*?<td>[\s\S]*?"([^"./]+)\.png"[\s\S]*?/([^./]+)\.png', re.findall(r'<h2><span class="mw-headline" id="Fill_barrels">Fill barrels<[\s\S]*?<table class="wikitable">([\s\S]*?)</table>', barrelPage)[0]):
         barrels[barrel[5]] = {'name': barrel[4], 'basic': False, 'icon': barrel[5] + '.png', 'amount': 1, 'time': float(barrel[2]), 'recipe': {'Empty_barrel': 1, barrel[0]: float(barrel[1])}}
 
     return barrels
@@ -68,5 +68,5 @@ for itemCode in itemList:
     print('check')
 
 
-with open('factorio-recipes.json', 'w') as fp:
+with open('data/factorio-recipes.json', 'w') as fp:
     json.dump(items, fp)

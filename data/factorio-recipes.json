@@ -11,80 +11,80 @@
       }
     },
     "Crude_oil_barrel": {
-      "name": "factorio-icon\" style=\"background-color:#929292;\"><img alt=\"Crude oil barrel",
+      "name": "Crude oil barrel",
       "basic": false,
       "icon": "Crude_oil_barrel.png",
       "amount": 1,
       "time": 0.2,
       "recipe": {
         "Empty_barrel": 1,
-        "Crude_oil": 50
+        "Crude_oil": 50.0
       }
     },
     "Heavy_oil_barrel": {
-      "name": "factorio-icon\" style=\"background-color:#929292;\"><img alt=\"Heavy oil barrel",
+      "name": "Heavy oil barrel",
       "basic": false,
       "icon": "Heavy_oil_barrel.png",
       "amount": 1,
       "time": 0.2,
       "recipe": {
         "Empty_barrel": 1,
-        "Heavy_oil": 50
+        "Heavy_oil": 50.0
       }
     },
     "Light_oil_barrel": {
-      "name": "factorio-icon\" style=\"background-color:#929292;\"><img alt=\"Light oil barrel",
+      "name": "Light oil barrel",
       "basic": false,
       "icon": "Light_oil_barrel.png",
       "amount": 1,
       "time": 0.2,
       "recipe": {
         "Empty_barrel": 1,
-        "Light_oil": 50
+        "Light_oil": 50.0
       }
     },
     "Lubricant_barrel": {
-      "name": "factorio-icon\" style=\"background-color:#929292;\"><img alt=\"Lubricant barrel",
+      "name": "Lubricant barrel",
       "basic": false,
       "icon": "Lubricant_barrel.png",
       "amount": 1,
       "time": 0.2,
       "recipe": {
         "Empty_barrel": 1,
-        "Lubricant": 50
+        "Lubricant": 50.0
       }
     },
     "Petroleum_gas_barrel": {
-      "name": "factorio-icon\" style=\"background-color:#929292;\"><img alt=\"Petroleum gas barrel",
+      "name": "Petroleum gas barrel",
       "basic": false,
       "icon": "Petroleum_gas_barrel.png",
       "amount": 1,
       "time": 0.2,
       "recipe": {
         "Empty_barrel": 1,
-        "Petroleum_gas": 50
+        "Petroleum_gas": 50.0
       }
     },
     "Sulfuric_acid_barrel": {
-      "name": "factorio-icon\" style=\"background-color:#929292;\"><img alt=\"Sulfuric acid barrel",
+      "name": "Sulfuric acid barrel",
       "basic": false,
       "icon": "Sulfuric_acid_barrel.png",
       "amount": 1,
       "time": 0.2,
       "recipe": {
         "Empty_barrel": 1,
-        "Sulfuric_acid": 50
+        "Sulfuric_acid": 50.0
       }
     },
     "Water_barrel": {
-      "name": "factorio-icon\" style=\"background-color:#929292;\"><img alt=\"Water barrel",
+      "name": "Water barrel",
       "basic": false,
       "icon": "Water_barrel.png",
       "amount": 1,
       "time": 0.2,
       "recipe": {
         "Empty_barrel": 1,
-        "Water": 50
+        "Water": 50.0
       }
     },
     "Wooden_chest": {
@@ -2353,80 +2353,80 @@
       }
     },
     "Crude_oil_barrel": {
-      "name": "factorio-icon\" style=\"background-color:#929292;\"><img alt=\"Crude oil barrel",
+      "name": "Crude oil barrel",
       "basic": false,
       "icon": "Crude_oil_barrel.png",
       "amount": 1,
       "time": 0.2,
       "recipe": {
         "Empty_barrel": 1,
-        "Crude_oil": 50
+        "Crude_oil": 50.0
       }
     },
     "Heavy_oil_barrel": {
-      "name": "factorio-icon\" style=\"background-color:#929292;\"><img alt=\"Heavy oil barrel",
+      "name": "Heavy oil barrel",
       "basic": false,
       "icon": "Heavy_oil_barrel.png",
       "amount": 1,
       "time": 0.2,
       "recipe": {
         "Empty_barrel": 1,
-        "Heavy_oil": 50
+        "Heavy_oil": 50.0
       }
     },
     "Light_oil_barrel": {
-      "name": "factorio-icon\" style=\"background-color:#929292;\"><img alt=\"Light oil barrel",
+      "name": "Light oil barrel",
       "basic": false,
       "icon": "Light_oil_barrel.png",
       "amount": 1,
       "time": 0.2,
       "recipe": {
         "Empty_barrel": 1,
-        "Light_oil": 50
+        "Light_oil": 50.0
       }
     },
     "Lubricant_barrel": {
-      "name": "factorio-icon\" style=\"background-color:#929292;\"><img alt=\"Lubricant barrel",
+      "name": "Lubricant barrel",
       "basic": false,
       "icon": "Lubricant_barrel.png",
       "amount": 1,
       "time": 0.2,
       "recipe": {
         "Empty_barrel": 1,
-        "Lubricant": 50
+        "Lubricant": 50.0
       }
     },
     "Petroleum_gas_barrel": {
-      "name": "factorio-icon\" style=\"background-color:#929292;\"><img alt=\"Petroleum gas barrel",
+      "name": "Petroleum gas barrel",
       "basic": false,
       "icon": "Petroleum_gas_barrel.png",
       "amount": 1,
       "time": 0.2,
       "recipe": {
         "Empty_barrel": 1,
-        "Petroleum_gas": 50
+        "Petroleum_gas": 50.0
       }
     },
     "Sulfuric_acid_barrel": {
-      "name": "factorio-icon\" style=\"background-color:#929292;\"><img alt=\"Sulfuric acid barrel",
+      "name": "Sulfuric acid barrel",
       "basic": false,
       "icon": "Sulfuric_acid_barrel.png",
       "amount": 1,
       "time": 0.2,
       "recipe": {
         "Empty_barrel": 1,
-        "Sulfuric_acid": 50
+        "Sulfuric_acid": 50.0
       }
     },
     "Water_barrel": {
-      "name": "factorio-icon\" style=\"background-color:#929292;\"><img alt=\"Water barrel",
+      "name": "Water barrel",
       "basic": false,
       "icon": "Water_barrel.png",
       "amount": 1,
       "time": 0.2,
       "recipe": {
         "Empty_barrel": 1,
-        "Water": 50
+        "Water": 50.0
       }
     },
     "Wooden_chest": {
