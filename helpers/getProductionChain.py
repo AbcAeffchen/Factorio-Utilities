@@ -1,14 +1,14 @@
 import json
 
-with open('factorio-recipes.json') as factorioRecipesFile:
+with open('data/factorio-recipes.json') as factorioRecipesFile:
     factorioRecipes = json.load(factorioRecipesFile)['normal']
 
-basicIngredients = ['Iron_plate', 'Copper_plate', 'Steel_plate']
+basicIngredients = ['Iron_plate', 'Copper_plate', 'Steel_plate', 'Lubricant', 'Uranium-235', 'Uranium-238']
 
 
 def calculateFactories(item, ratio):
 
-    itemsPerSecond = factorioRecipes[item]['amount'] / factorioRecipes[item]['time']
+    itemsPerSecond = 1 if factorioRecipes[item]['basic'] else (factorioRecipes[item]['amount'] / factorioRecipes[item]['time'])
 
     factories = {item: ratio / itemsPerSecond}
 
@@ -42,11 +42,18 @@ def printFactories(factories):
 
 
 item = input('Build: ')
-if item not in factorioRecipes:
+if item not in factorioRecipes and item != 'full':
     print('Item not found...')
     exit()
 
-ratio = float(input('Item/s: '))
+ratio = float(input('Items/s: '))
 
+if item == 'full':
+    for i, d in factorioRecipes.items():
+        if i in basicIngredients or d['basic']:
+            continue
 
-printFactories(calculateFactories(item, ratio))
+        printFactories(calculateFactories(i, ratio))
+        print()
+else:
+    printFactories(calculateFactories(item, ratio))
